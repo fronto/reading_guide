@@ -16,11 +16,11 @@ Having some foundational knowledge in computer science can help you be a better 
 
 #Computer science knowledge that is important:
 
-*Operating Systems
-*Networks 
-*Computer Architecture
-*Data Structures and Algorithms
-*Encryption
+* Operating Systems
+* Networks 
+* Computer Architecture
+* Data Structures and Algorithms
+* Encryption
 
 
 ##Operating systems:
