@@ -14,7 +14,7 @@ You have probably already realized this already as you are able to program in py
 
 Having some foundational knowledge in computer science can help you be a better software engineer. You do not need a bachelor's degree in the subject, almost all the relevant knowledge can be acquired through self study. The biggest problem you will face will be the demands on your time. You will not have time to learn everything and therefore you must be able to filter out what is important. Aim to acquire effective knowledge before acquiring transcendent knowledge on any given subject.
 
-Computer science knowledge that is important:
+#Computer science knowledge that is important:
 
 
 Operating Systems
@@ -24,7 +24,7 @@ Data Structures and Algorithms
 Encryption
 
 
-Operating systems:
+##Operating systems:
 
 An understanding of the file system
 An understanding of processes
@@ -84,7 +84,7 @@ http://index-of.es/eBooks/Operating%20Systems%20Design%20&%20Implementation%203r
 
 I should mention that Andrew S. Tanenbaum lectures at the VU in Amsterdam and is a world authority on Operating Systems and networks.
 
-Networking:
+##Networking:
 
 An understanding of computer networks is also "must-have" knowledge for a software engineer, whether you are setting up a production environment, or just trying to figure out if an application is running on your own work station by testing a certain port. Try and obtain the following knowledge:
 
@@ -143,7 +143,7 @@ Data structures and algorithms are ubiquitous in software engineering, even thou
 
 There are innumerable books on this subject, so I will only name a few:
 
-Data structures and Algorithms in Python by Goodrich, Tamassia and Goldwasser
+##Data structures and Algorithms in Python by Goodrich, Tamassia and Goldwasser
 
 This book should be very accessible to you because the example code is in python.
 
@@ -159,7 +159,7 @@ Introduction to Algorithms by Corman, Leiserson, Rivest and Stein
 
 It is neither practical nor easy to digest.
 
-Encryption:
+##Encryption:
 
 Encryption is a huge topic so I will limit my discussion to what is important:
 
@@ -188,9 +188,9 @@ Another really good source of information on this subject are the books by Bruce
 
 Bruce Schneier is a world authority on computer and network security and written many books on the subject both for engineers and non-technical people - well worth having a look at.
 
-General programming knowledge that is useful:
+#General programming knowledge that is useful:
 
-Understand different types of programming models:
+##Understand different types of programming models:
 
 Imperative (C programming)
 Object-oriented (java, javascript)
@@ -198,7 +198,7 @@ Functional (Haskell)
 Hybrid models such as object-functional (scala)
 (python can actually be used in an imperative, objected-oriented and object-functional way)
 
-Type systems: know the difference between a strong and a weak type system, and the difference between and static and a dynamic type system. Wikipedia has some good disambiguation on this subject.
+##Type systems: know the difference between a strong and a weak type system, and the difference between and static and a dynamic type system. Wikipedia has some good disambiguation on this subject.
 
 Important object oriented concepts: 
 
@@ -229,13 +229,13 @@ Available for free online: http://learnyouahaskell.com/chapters
 
 You will realize that certain problems are better tackled in an object oriented way and other problems are better tackled in a functional way, for example mapping is easier than looping. Object-functional languages such as python and scala let you choose depending on your needs.
 
-Scope: understand what closure is.
+##Scope: understand what closure is.
 
 Read the wikipedia article: https://en.wikipedia.org/wiki/Closure_(computer_programming)
 
 Read: You Don't Know Js: scope and closures by Kyle Simpson
 
-Memory management: Know the difference between explicit (manual) memory management and implicit (automatic) management, also known as garbage collection.
+##Memory management: Know the difference between explicit (manual) memory management and implicit (automatic) management, also known as garbage collection.
 
 There is no better way to understand this then by learning to program in C. C demands explicit memory management. Try and write a C program which dereferences but does not deallocate it's data inside an infinite loop. It should crash after a while and bring your computer to a standstill. Then try de-allocating the memory using the free() function before dereferencing it in each iteration of the loop. This time the program should run forever and not run out of memory.
 
@@ -243,7 +243,7 @@ Most of the higher level languages that we program in such as python are actuall
 
 Higher level languages have garbage collectors that handle the freeing of memory for you when your program is running, so you do not have to think about it while you are coding. For example if you assign a python variable to one object and then assign it to another, the first object is no longer needed and the memory it occupies must be freed. You never have to think about this when programming in python because the python garbage collector tracks the number of variables pointing to a given object. When this number drops to zero the object is "removed" from memory. 
 
-Runtimes and execution models:
+##Runtimes and execution models:
 
 Strive to obtain a high level, abstract understanding of what these things are:
 
@@ -265,7 +265,7 @@ Computer Systems: a Programmers perspective by Bryant and O'Halleron
 
 I cannot understate how useful the Bryant and O'Halleron book is for a complete understanding of how a computer works and how programs are compiled and run. Some of the older editions of this book are available for free online
 
-Concurrency:
+##Concurrency:
 
 Know what threads are
 Know what shared memory is (hint: heap memory)
@@ -279,7 +279,7 @@ Know how to avoid concurrency problems altogether (hint: actors, functional prog
 
 I wont recommend any concurrency books right now as this really depends on which programming language you are using. That said bare in mind that the underlying principles of concurrency are the same in all programming languages.
 
-Ok enough computer science, now onto the software engineering side of things:
+#Ok enough computer science, now onto the software engineering side of things:
 
 Try and have a main programming language and a scripting language. In your case, you main programming language can be used as a scripting language. Consider learning another language. Javascript would be very useful for front-end programming at work. C would be very useful for understanding how computers work. Go combines elements of python and C. Java is also a good one with a lot of job opportunities. Scala is in vogue at the moment but IMHO overrated. 
 
