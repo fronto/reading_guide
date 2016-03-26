@@ -1,6 +1,6 @@
 # reading_guide
 
-“Right now, I’m trying hard to become better at programming. I remember that you mentioned two books: Pragmatic Programming (Hunt & Thomas) and Refactoring (Martin Fowler). Is there another book of which you think a starting programmer must have?”
+"Right now, I'm trying hard to become better at programming. I remember that you mentioned two books: Pragmatic Programming (Hunt & Thomas) and Refactoring (Martin Fowler). Is there another book of which you think a starting programmer must have?"
 
 This is loaded question, so I will try and answer it as best I can. It may seem like I am circling around a direct answer to your question, but I need to place it in the wider context.
 
@@ -12,7 +12,7 @@ You have probably already realized this already as you are able to program in py
 
 (The emergence of the git version control software is a typical example. To save time and money developers collaborate and share code through open source software, pooling resources to solve a common problem experienced by many organizations. Managing all the changes to this software required a distributed version control system. Git was the answer to this problem. Git incorporates many fundamental data structures and algorithms from computer science including hashes, graphs and trees.)
 
-Having some foundational knowledge in computer science can help you be a better software engineer. You do not need a bachelor’s degree in the subject, almost all the relevant knowledge can be acquired through self study. The biggest problem you will face will be the demands on your time. You will not have time to learn everything and therefore you must be able to filter out what is important. Aim to acquire effective knowledge before acquiring transcendent knowledge on any given subject.
+Having some foundational knowledge in computer science can help you be a better software engineer. You do not need a bachelor's degree in the subject, almost all the relevant knowledge can be acquired through self study. The biggest problem you will face will be the demands on your time. You will not have time to learn everything and therefore you must be able to filter out what is important. Aim to acquire effective knowledge before acquiring transcendent knowledge on any given subject.
 
 Computer science knowledge that is important:
 
@@ -35,8 +35,8 @@ An understanding of user space vs kernel space
 
 A good theoretical understanding of these concepts can be obtained by reading any standard university textbook. Two very popular ones are:
 
-“ Operating Systems Concepts” Silberschatz, Galvin and Gagne
-“Modern Operating Systems” by Andrew S. Tanenbaum
+" Operating Systems Concepts" Silberschatz, Galvin and Gagne
+"Modern Operating Systems" by Andrew S. Tanenbaum
 
 Earlier pdf editions of these books can be obtained from: 
 
@@ -44,7 +44,7 @@ http://freecomputerbooks.com
 
 On the practical side the most immediately useful book I can recommend on this subject is:
 
-“A practical guide to Linux commands, editors and shell programming” by Mark G. Sobell
+"A practical guide to Linux commands, editors and shell programming" by Mark G. Sobell
 
 This is really good because it is very hands-on, providing just enough theory and a lot of practice that will be useful to you in your day job. It is a lot more focused on how to use linux/unix than how linux/unix actually works. Here is the free online version of the second edition:
 
@@ -52,9 +52,9 @@ http://www.aem.umn.edu/~aem3100/spring2013/Prentice_Hall_A_Practical_Guide_to_Li
 
 For a more thorough overview of how to use and configure Linux I would also recommend:
 
-“The Unix and Linux system administration handbook, 4th edition” by Nemith, Snyder Hein and Walley. 
+"The Unix and Linux system administration handbook, 4th edition" by Nemith, Snyder Hein and Walley. 
 
-Here is book’s website:
+Here is book's website:
 
 http://www.admin.com/
 
@@ -62,7 +62,7 @@ A lot of the narratives in this book are very descriptive but there is also a he
 
 For a more rigorous understanding of the internals of Linux and Unix I would recommend: 
 
-“How Linux Works, 2nd edition” by Brian Ward
+"How Linux Works, 2nd edition" by Brian Ward
 
 https://www.nostarch.com/howlinuxworks2
 
@@ -70,15 +70,15 @@ No point reading this book unless you are already familiar with using Linux and/
 
 For an understanding of how Linux and/or Unix really work read the following
 
-“Advanced Programming in the Unix Environment, 3rd edition” by Stevens and Rago
+"Advanced Programming in the Unix Environment, 3rd edition" by Stevens and Rago
 
 http://www.apuebook.com/cover3e.html
 
 This book is very applied, and gives very descriptive narratives next to excerpts from the operating system source code itself. It is the best book on the subject if you really want to understand the internals. It does however require that you are able to program in C. It is also very long, so reading it should be hobbyist pursuit, not a career priority.
 
-There is another s a book in which the reader “creates” a mini Unix-like operating system themselves:
+There is another s a book in which the reader "creates" a mini Unix-like operating system themselves:
 
-“Operating Systems: design and implementation” by Andrew S. Tanenbaum.
+"Operating Systems: design and implementation" by Andrew S. Tanenbaum.
 
 http://index-of.es/eBooks/Operating%20Systems%20Design%20&%20Implementation%203rd%20Edition(1).pdf
 
@@ -86,7 +86,7 @@ I should mention that Andrew S. Tanenbaum lectures at the VU in Amsterdam and is
 
 Networking:
 
-An understanding of computer networks is also “must-have” knowledge for a software engineer, whether you are setting up a production environment, or just trying to figure out if an application is running on your own work station by testing a certain port. Try and obtain the following knowledge:
+An understanding of computer networks is also "must-have" knowledge for a software engineer, whether you are setting up a production environment, or just trying to figure out if an application is running on your own work station by testing a certain port. Try and obtain the following knowledge:
 
 An understating of the TCP/IP protocol stack.
 Well known ports
@@ -101,7 +101,7 @@ The best practical introduction to networks that I can think of is:
 
 Sams Teach yourself TCP/IP in 24 hours by Joe Casad
 
-This book is not too dense on theory, but gives you enough to get an idea of what is going on, and then introduces you to common networking command line tools, which are an essential part of a developer’s toolkit, such as:
+This book is not too dense on theory, but gives you enough to get an idea of what is going on, and then introduces you to common networking command line tools, which are an essential part of a developer's toolkit, such as:
 
 ping, netstat, curl, ifconfig, hosts (formerly nslookup), telnet, traceroute
 
@@ -167,7 +167,7 @@ Understand the difference between symmetric cryptography and asymmetric cryptogr
 
 Understand how asymmetric cryptography can be used to transport encrypted information or digitally sign unencrypted information, in both cases using key-pairs, one of which is designated private and the other one public.
 
-Figure out how to use “trusted” keys to make your ssh logins easier, such that they do not require password prompts.
+Figure out how to use "trusted" keys to make your ssh logins easier, such that they do not require password prompts.
 
 
 Understand what a one way hash is and why it is better to store the hash of a password rather than the password itself. 
@@ -182,9 +182,9 @@ Understanding Cryptography by Paar Peizi and Preneel is book which is both rigor
 
 Another really good source of information on this subject are the books by Bruce Schneier such as:
 
-“Secrets and Lies: Digital Security in a networked world” -> easy to read
-“Cryptography Engineering” -> medium difficulty, with the technical reader in mind
-“Applied Cryptography” -> really difficult in depth 
+"Secrets and Lies: Digital Security in a networked world" -> easy to read
+"Cryptography Engineering" -> medium difficulty, with the technical reader in mind
+"Applied Cryptography" -> really difficult in depth 
 
 Bruce Schneier is a world authority on computer and network security and written many books on the subject both for engineers and non-technical people - well worth having a look at.
 
@@ -233,15 +233,15 @@ Scope: understand what closure is.
 
 Read the wikipedia article: https://en.wikipedia.org/wiki/Closure_(computer_programming)
 
-Read: You Don’t Know Js: scope and closures by Kyle Simpson
+Read: You Don't Know Js: scope and closures by Kyle Simpson
 
 Memory management: Know the difference between explicit (manual) memory management and implicit (automatic) management, also known as garbage collection.
 
-There is no better way to understand this then by learning to program in C. C demands explicit memory management. Try and write a C program which dereferences but does not deallocate it’s data inside an infinite loop. It should crash after a while and bring your computer to a standstill. Then try de-allocating the memory using the free() function before dereferencing it in each iteration of the loop. This time the program should run forever and not run out of memory.
+There is no better way to understand this then by learning to program in C. C demands explicit memory management. Try and write a C program which dereferences but does not deallocate it's data inside an infinite loop. It should crash after a while and bring your computer to a standstill. Then try de-allocating the memory using the free() function before dereferencing it in each iteration of the loop. This time the program should run forever and not run out of memory.
 
 Most of the higher level languages that we program in such as python are actually created using C. Operating systems and network protocol implementations also tend to be written in C. Although it is unlikely that you will ever end up using C in your job, it is a good language to learn for the purpose of deepening your knowledge of how computers work.
 
-Higher level languages have garbage collectors that handle the freeing of memory for you when your program is running, so you do not have to think about it while you are coding. For example if you assign a python variable to one object and then assign it to another, the first object is no longer needed and the memory it occupies must be freed. You never have to think about this when programming in python because the python garbage collector tracks the number of variables pointing to a given object. When this number drops to zero the object is “removed” from memory. 
+Higher level languages have garbage collectors that handle the freeing of memory for you when your program is running, so you do not have to think about it while you are coding. For example if you assign a python variable to one object and then assign it to another, the first object is no longer needed and the memory it occupies must be freed. You never have to think about this when programming in python because the python garbage collector tracks the number of variables pointing to a given object. When this number drops to zero the object is "removed" from memory. 
 
 Runtimes and execution models:
 
@@ -251,30 +251,30 @@ Know the difference between compiling a program and running it
 Know the difference between a compiled and interpreted programming language.
 Know the difference between pre-execution compilation and just-in-time compilation.
 Get an idea of the process of compiling then running a program (pre-processing => compilation => assembly => linking => loading)
-Know how the stack and the heap is used to hold the program’s memory and state.
+Know how the stack and the heap is used to hold the program's memory and state.
 
 To learn C programming:
 
 Sams Teach your C in one hour a day, by Jones, Aitken and Miller
-The C Programming Language by Kerrighan and Ritchie (Also known as “K&R”)
+The C Programming Language by Kerrighan and Ritchie (Also known as "K&R")
 Understanding and using C pointers by Richard Reece
 
 To learn about computer systems:
 
-Computer Systems: a Programmers perspective by Bryant and O’Halleron
+Computer Systems: a Programmers perspective by Bryant and O'Halleron
 
-I cannot understate how useful the Bryant and O’Halleron book is for a complete understanding of how a computer works and how programs are compiled and run. Some of the older editions of this book are available for free online
+I cannot understate how useful the Bryant and O'Halleron book is for a complete understanding of how a computer works and how programs are compiled and run. Some of the older editions of this book are available for free online
 
 Concurrency:
 
 Know what threads are
 Know what shared memory is (hint: heap memory)
-Know that each thread has it’s own execution stack (memory on the stack is local to that thread and not available to other threads)
+Know that each thread has it's own execution stack (memory on the stack is local to that thread and not available to other threads)
 Know what a race condition is and how one can use locking to prevent them
 Know what locking is, and what re-entrant locks are
 Know what semaphores are
 Know what deadlock conditions and live-locks are
-Know that the mathematical foundations of concurrent programs amount to governing access to shared mutable state. These mathematical “rules” are the same across different programming languages.
+Know that the mathematical foundations of concurrent programs amount to governing access to shared mutable state. These mathematical "rules" are the same across different programming languages.
 Know how to avoid concurrency problems altogether (hint: actors, functional programming)
 
 I wont recommend any concurrency books right now as this really depends on which programming language you are using. That said bare in mind that the underlying principles of concurrency are the same in all programming languages.
@@ -283,7 +283,7 @@ Ok enough computer science, now onto the software engineering side of things:
 
 Try and have a main programming language and a scripting language. In your case, you main programming language can be used as a scripting language. Consider learning another language. Javascript would be very useful for front-end programming at work. C would be very useful for understanding how computers work. Go combines elements of python and C. Java is also a good one with a lot of job opportunities. Scala is in vogue at the moment but IMHO overrated. 
 
-Get good at using the command line. Learn to use shell utilities such as find, grep, xargs, cat, cut, sed, awk. Use git from the command line. Chain shell commands together using pipes. (eg find . -type f -name ‘*.py’ | xargs grep “def” ). Consider installing “bropages”, which is easier to read than the man pages, and has practical examples.
+Get good at using the command line. Learn to use shell utilities such as find, grep, xargs, cat, cut, sed, awk. Use git from the command line. Chain shell commands together using pipes. (eg find . -type f -name ‘*.py' | xargs grep "def" ). Consider installing "bropages", which is easier to read than the man pages, and has practical examples.
 
 Learn unix/linux command line network tools such as ping, telnet, netstat, host, ifconfig, ssh, scp, curl
 
@@ -299,7 +299,7 @@ Master Test Driven Development. Know the difference between a unit test, an inte
      Test Driven Development with Python by Percival (Useful to you)
      Growing object oriented software guided by tests by Freeman and Pryce (This book shows how test actually influence the design of the code, and how to write code that is highly readable and highly testable. This book is more for someone who is already used to TDD, who wants to do it better.)
 
- Learn design patterns. Most important are the “Gang of four”. Some of these patterns are now redundant, as programming languages have evolved to incorporate them into the grammar of the respective languages themselves. Hint: design patterns in current programming languages often portend changes in future programming languages. In so far as web programming and relational databases are concerned, learn the “Patterns of Enterprise Application Architecture”, PoEAA for short, named after the book by Fowler. Many of these patterns are also out of date now but many of them are still used, particularly the object-relational patterns. There are also the IEP (Enterprise Integration Patterns), though in practice you will hardly ever use these. Your time would be better spent learning about REST and micro-services than IEP => IEP tends to be used on monolithic systems which are being disrupted by the emergence of micro-services.
+ Learn design patterns. Most important are the "Gang of four". Some of these patterns are now redundant, as programming languages have evolved to incorporate them into the grammar of the respective languages themselves. Hint: design patterns in current programming languages often portend changes in future programming languages. In so far as web programming and relational databases are concerned, learn the "Patterns of Enterprise Application Architecture", PoEAA for short, named after the book by Fowler. Many of these patterns are also out of date now but many of them are still used, particularly the object-relational patterns. There are also the IEP (Enterprise Integration Patterns), though in practice you will hardly ever use these. Your time would be better spent learning about REST and micro-services than IEP => IEP tends to be used on monolithic systems which are being disrupted by the emergence of micro-services.
 
    Design patterns books:
    
@@ -319,11 +319,11 @@ Learn the dependency injection principle. Know the difference between tight coup
 
     Read Clean Code by Robert C. Martin
 
-Learn the Law of Demeter or “tell, don’t ask”. Understand why getters are evil, and why it is important to encapsulate behavior as well as state. Understand how Demeter makes code more readable and testable by chunking code more uniformly across your classes, and making behavior easier to mock in unit tests. 
+Learn the Law of Demeter or "tell, don't ask". Understand why getters are evil, and why it is important to encapsulate behavior as well as state. Understand how Demeter makes code more readable and testable by chunking code more uniformly across your classes, and making behavior easier to mock in unit tests. 
 
     Law of Demeter is discussed in the Pragmatic Programmer
 
-Learn about Domain Driven Design (DDD). Learn how to separate code that contains business logic from code that uses framework specific classes. Understand why this makes code easier to test. Keep business logic in a separate module away from persistence layers and web layers. Use inversion of control and dependency injection to achieve this. Realize that Domain Driven Design, Test Driven Development and Dependency Injection form the “holy trinity” of modern enterprise software development, with each one complementing the other.
+Learn about Domain Driven Design (DDD). Learn how to separate code that contains business logic from code that uses framework specific classes. Understand why this makes code easier to test. Keep business logic in a separate module away from persistence layers and web layers. Use inversion of control and dependency injection to achieve this. Realize that Domain Driven Design, Test Driven Development and Dependency Injection form the "holy trinity" of modern enterprise software development, with each one complementing the other.
 
       Domain Driven Design by Eric Evans is the original DDD book, a bit long winded
 
@@ -347,7 +347,7 @@ Bounded Context
 
 Understand the difference between virtualization and containerization. Try using  at least one of the tools and libraries that allow for the rapid creation of VMs and containers (such as Vagrant and Docker). Understand the advantages of scripting environments, when it comes to horizontal scaling and load-balancing. Understand the advantages of scripting environments when it comes to creating  a deployment pipeline where the workstation, QA, Staging and production are almost exactly the same.
 
-Develop an affinity with agile development processes. Find out who W. Edwards Demming was and find out a little about Japanese lean manufacturing. Find out how the software industry has tried to use these ideas to solve the Software Productivity Crisis. Important points are focusing on quality (refactoring, TDD) at the micro-level to improve productivity at the macro-level (rapid, reliable software releases). Identifying bottlenecks and waste in a process by taking measurements (such as how long does it take to get from a git push to a production release?). Understand that measurements are subject to statistical variation and may not be accurate in the short term. This is particularly the case for user story points during a sprint. It is necessary to aggregate measurements to get useful information (i.e. “what is the average story point velocity of the team over 8 sprints?” is a better question to ask than “how long did Rosa take to do task X?”).  Look at the similarities between a Demming cycle and a unit test. Try and see everything thing as repeated cycles of varying duration (from running a unit test, to daily stand-ups, to sprints). Each iteration is a chance to improve on the one that came before it. Unlike building a bridge or developing an oil platform, software is malleable, you can change it after you have made it, and therefore lends itself to short iterative cycles rather than phased (waterfall) development models used in other engineering disciplines. Realize that scrum is just a business process and does nothing to address the technical side of agile software development.  Many companies abuse scrum and use it as a way of micro-managing their staff, focusing exclusively on how fast features are delivered while neglecting the accretion of technical debt, resulting in misplaced blame and failed projects. Scrum has spawned a cottage industry with certifications and consultants peddling scrum as the secret sauce which will save your project. It is useful but it is not a panacea. It is outright harmful when misused in the way I have described above. Fowler refers to this is as “flaccid scrum”.
+Develop an affinity with agile development processes. Find out who W. Edwards Demming was and find out a little about Japanese lean manufacturing. Find out how the software industry has tried to use these ideas to solve the Software Productivity Crisis. Important points are focusing on quality (refactoring, TDD) at the micro-level to improve productivity at the macro-level (rapid, reliable software releases). Identifying bottlenecks and waste in a process by taking measurements (such as how long does it take to get from a git push to a production release?). Understand that measurements are subject to statistical variation and may not be accurate in the short term. This is particularly the case for user story points during a sprint. It is necessary to aggregate measurements to get useful information (i.e. "what is the average story point velocity of the team over 8 sprints?" is a better question to ask than "how long did Rosa take to do task X?").  Look at the similarities between a Demming cycle and a unit test. Try and see everything thing as repeated cycles of varying duration (from running a unit test, to daily stand-ups, to sprints). Each iteration is a chance to improve on the one that came before it. Unlike building a bridge or developing an oil platform, software is malleable, you can change it after you have made it, and therefore lends itself to short iterative cycles rather than phased (waterfall) development models used in other engineering disciplines. Realize that scrum is just a business process and does nothing to address the technical side of agile software development.  Many companies abuse scrum and use it as a way of micro-managing their staff, focusing exclusively on how fast features are delivered while neglecting the accretion of technical debt, resulting in misplaced blame and failed projects. Scrum has spawned a cottage industry with certifications and consultants peddling scrum as the secret sauce which will save your project. It is useful but it is not a panacea. It is outright harmful when misused in the way I have described above. Fowler refers to this is as "flaccid scrum".
 
 The problem:
 
@@ -382,11 +382,11 @@ http://www.laputan.org/mud/
 
 Get active in the online community:
 
-Create stackoverflow.com account if you don’t already have one. Don’t be afraid to ask questions through stackoverflow. There are no stupid questions, only stupid answers.
+Create stackoverflow.com account if you don't already have one. Don't be afraid to ask questions through stackoverflow. There are no stupid questions, only stupid answers.
 
-Create a github account if you don’t already have one. Create a toolbox on github that you can take from one project or company to another.Clone a project that you are interested in
+Create a github account if you don't already have one. Create a toolbox on github that you can take from one project or company to another.Clone a project that you are interested in
 
-15) Enjoy yourself, don’t exhaust yourself :)
+15) Enjoy yourself, don't exhaust yourself :)
 
  
 
