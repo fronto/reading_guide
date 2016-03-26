@@ -25,12 +25,12 @@ Having some foundational knowledge in computer science can help you be a better 
 
 ##Operating systems:
 
-.*An understanding of the file system
-.*An understanding of processes
-.*An understanding of users and permissions
-.*An understanding of virtual memory
-.*An understanding of context switching and scheduling
-.*An understanding of user space vs kernel space
+* An understanding of the file system
+* An understanding of processes
+* An understanding of users and permissions
+* An understanding of virtual memory
+* An understanding of context switching and scheduling
+* An understanding of user space vs kernel space
 
 A good theoretical understanding of these concepts can be obtained by reading any standard university textbook. Two very popular ones are:
 
@@ -87,14 +87,14 @@ I should mention that Andrew S. Tanenbaum lectures at the VU in Amsterdam and is
 
 An understanding of computer networks is also "must-have" knowledge for a software engineer, whether you are setting up a production environment, or just trying to figure out if an application is running on your own work station by testing a certain port. Try and obtain the following knowledge:
 
-*An understating of the TCP/IP protocol stack.
-*Well known ports
-*Public and private IP addresses
-*IPv4 vs IPv6
-*An understanding of DNS and routing
-*An understanding of SSL/TLS, know what tunneling is and how to use ssh
-*Certificate signing, Certification chains , CAs and PKI
-*Http, REST
+* An understating of the TCP/IP protocol stack.
+* Well known ports
+* Public and private IP addresses
+* IPv4 vs IPv6
+* An understanding of DNS and routing
+* An understanding of SSL/TLS, know what tunneling is and how to use ssh
+* Certificate signing, Certification chains , CAs and PKI
+* Http, REST
 
 The best practical introduction to networks that I can think of is:
 
@@ -126,17 +126,18 @@ Data structures and algorithms:
 
 Data structures and algorithms is one of those foundational subjects that you find everywhere. Main subject areas include:
 
-*Basics of lists, queues, stacks, graphs and trees
-*Basics of hashes and hash tables
-*Basics of searching and sorting
+* Basics of lists, queues, stacks, graphs and trees
+* Basics of hashes and hash tables
+* Basics of searching and sorting
 
 Real world examples of their use:
-*Network routing: uses shortest path graph algorithms
-*Calling functions in a running program: uses stacks
-*Storing data of indefinite size: uses linked lists
-*File system on your Mac: uses trees, both in the path names and inodes.
-*Listing names alphabetically: uses sorting algorithms
-*Using git bisect to pinpoint a bug in your code: binary search
+
+* Network routing: uses shortest path graph algorithms
+* Calling functions in a running program: uses stacks
+* Storing data of indefinite size: uses linked lists
+* File system on your Mac: uses trees, both in the path names and inodes.
+* Listing names alphabetically: uses sorting algorithms
+* Using git bisect to pinpoint a bug in your code: binary search
 
 Data structures and algorithms are ubiquitous in software engineering, even though one is often unaware of their presence as they will be hidden inside an api or library that you are using. That said I think learning this subject is well worth the investment.
 
@@ -191,11 +192,11 @@ Bruce Schneier is a world authority on computer and network security and written
 
 ##Understand different types of programming models:
 
-*Imperative (C programming)
-*Object-oriented (java, javascript)
-*Functional (Haskell)
-*Hybrid models such as object-functional (scala)
-*(python can actually be used in an imperative, objected-oriented and object-functional way)
+* Imperative (C programming)
+* Object-oriented (java, javascript)
+* Functional (Haskell)
+* Hybrid models such as object-functional (scala)
+* (python can actually be used in an imperative, objected-oriented and object-functional way)
 
 ##Type systems: know the difference between a strong and a weak type system, and the difference between and static and a dynamic type system. Wikipedia has some good disambiguation on this subject.
 
@@ -246,11 +247,11 @@ Higher level languages have garbage collectors that handle the freeing of memory
 
 Strive to obtain a high level, abstract understanding of what these things are:
 
-*Know the difference between compiling a program and running it
-*Know the difference between a compiled and interpreted programming language.
-*Know the difference between pre-execution compilation and just-in-time compilation.
-*Get an idea of the process of compiling then running a program (pre-processing => compilation => assembly => linking => loading)
-*Know how the stack and the heap is used to hold the program's memory and state.
+* Know the difference between compiling a program and running it
+* Know the difference between a compiled and interpreted programming language.
+* Know the difference between pre-execution compilation and just-in-time compilation.
+* Get an idea of the process of compiling then running a program (pre-processing => compilation => assembly => linking => loading)
+* Know how the stack and the heap is used to hold the program's memory and state.
 
 To learn C programming:
 
@@ -266,15 +267,15 @@ I cannot understate how useful the Bryant and O'Halleron book is for a complete 
 
 ##Concurrency:
 
-*Know what threads are
-*Know what shared memory is (hint: heap memory)
-*Know that each thread has it's own execution stack (memory on the stack is local to that thread and not available to other threads)
-*Know what a race condition is and how one can use locking to prevent them
-*Know what locking is, and what re-entrant locks are
-*Know what semaphores are
-*Know what deadlock conditions and live-locks are
-*Know that the mathematical foundations of concurrent programs amount to governing access to shared mutable state. These mathematical "rules" are the same across different programming languages.
-*Know how to avoid concurrency problems altogether (hint: actors, functional programming)
+* Know what threads are
+* Know what shared memory is (hint: heap memory)
+* Know that each thread has it's own execution stack (memory on the stack is local to that thread and not available to other threads)
+* Know what a race condition is and how one can use locking to prevent them
+* Know what locking is, and what re-entrant locks are
+* Know what semaphores are
+* Know what deadlock conditions and live-locks are
+* Know that the mathematical foundations of concurrent programs amount to governing access to shared mutable state. These mathematical "rules" are the same across different programming languages.
+* Know how to avoid concurrency problems altogether (hint: actors, functional programming)
 
 I wont recommend any concurrency books right now as this really depends on which programming language you are using. That said bare in mind that the underlying principles of concurrency are the same in all programming languages.
 
