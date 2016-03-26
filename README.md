@@ -16,21 +16,21 @@ Having some foundational knowledge in computer science can help you be a better 
 
 #Computer science knowledge that is important:
 
-*.Operating Systems
-*.Networks 
-*.Computer Architecture
-*.Data Structures and Algorithms
-*.Encryption
+.*Operating Systems
+.*Networks 
+.*Computer Architecture
+.*Data Structures and Algorithms
+.*Encryption
 
 
 ##Operating systems:
 
-*.An understanding of the file system
-*.An understanding of processes
-*.An understanding of users and permissions
-*.An understanding of virtual memory
-*.An understanding of context switching and scheduling
-*.An understanding of user space vs kernel space
+.*An understanding of the file system
+.*An understanding of processes
+.*An understanding of users and permissions
+.*An understanding of virtual memory
+.*An understanding of context switching and scheduling
+.*An understanding of user space vs kernel space
 
 A good theoretical understanding of these concepts can be obtained by reading any standard university textbook. Two very popular ones are:
 
