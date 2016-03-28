@@ -338,23 +338,23 @@ I wont recommend any concurrency books right now as this really depends on which
 
     Law of Demeter is discussed in the Pragmatic Programmer
 
-* Learn about Domain Driven Design (DDD). Learn how to separate code that contains business logic from code that uses framework specific classes. Understand why this makes code easier to test. Keep business logic in a separate module away from persistence layers and web layers. Use inversion of control and dependency injection to achieve this. Realize that Domain Driven Design, Test Driven Development and Dependency Injection form the "holy trinity" of modern enterprise software development, with each one complementing the other.
-
-      Domain Driven Design by Eric Evans is the original DDD book, a bit long winded
-
-      Implementing Domain Driven Design by Vince Vaughn -> a bit more hands on than the Evans book
-
+* Learn about Domain Driven Design (DDD). 
+  * Learn how to separate code that contains business logic from code that uses framework specific classes.
+  * Understand why this makes code easier to test.
+  * Keep business logic in a separate module away from persistence layers and web layers.
+  * Use inversion of control and dependency injection to achieve this.
+  * Realize that Domain Driven Design, Test Driven Development and Dependency Injection form the "holy trinity" of modern enterprise software development, with each one complementing the other.  
+  * Domain Driven Design by Eric Evans is the original DDD book, a bit long winded
+Implementing Domain Driven Design by Vince Vaughn -> a bit more hands on than the Evans book
 Here is a free e-book called Domain Driven Design Quickly -> shorter than the Evans book, requires infoq account:
-
 http://www.infoq.com/minibooks/domain-driven-design-quickly
+  * It may not be necessary to read an entire book on DDD as long as you know what the following are:
+    * Services
+    * Repositories
+    * Entities
+    * Value Objects
+    * Bounded Context
 
-It may not be necessary to read an entire book on DDD as long as you know what the following are:
-
-* Services
-* Repositories
-* Entities
-* Value Objects
-* Bounded Context
 
 * Understand the principles of continuous delivery. See software deployments as being a bit like a factory production line, from your workstation to the continuous integration server, to QA, to staging, and then finally to production. Try and automate as many of the steps as possible, without compromising quality. Understand release management, tagging and versioning.
 
