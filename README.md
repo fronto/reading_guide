@@ -198,11 +198,19 @@ Bruce Schneier is a world authority on computer and network security and written
 * Hybrid models such as object-functional (scala)
 * (python can actually be used in an imperative, objected-oriented and object-functional way)
 
-##Type systems: know the difference between a strong and a weak type system, and the difference between and static and a dynamic type system. Wikipedia has some good disambiguation on this subject.
+##Type systems: 
 
-Important object oriented concepts: 
+* know the difference between a strong and a weak type system
+* know the difference between and static and a dynamic type system
 
-Abstraction , encapsulation, inheritance, separation of concerns
+Wikipedia has some good disambiguation on this subject.
+
+##Important object oriented concepts: 
+
+* Abstraction 
+* encapsulation
+* inheritance
+* separation of concerns
 
 A hands on guide on object orientation is:
 Head First Object Oriented Analysis and Design by McLaughlin, Police and West
