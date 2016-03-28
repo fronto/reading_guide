@@ -221,9 +221,12 @@ A Touch of Class by Bertrand Meyer
 
 The problem with this book is that it uses Eiffel for the example code. You have to learn another language just to read the book!
 
-Important functional programming concepts:
+##Important functional programming concepts:
 
-Deferred or lazy evaluation, currying, memorization, tail call optimization.
+* Deferred or lazy evaluation
+* currying
+* memorization
+* tail call optimization
 
 A hands-on guide to these concepts is:
 
