@@ -1,4 +1,6 @@
 #!/usr/bin/ruby
 
-require 'github/markup'
-GitHub::Markup.render('README.md')
+require 'github-markdown-preview'
+
+# create a preview, which writes the source_file.md.html file to disk
+preview = GithubMarkdownPreview::HtmlPreview.new('README.md')
