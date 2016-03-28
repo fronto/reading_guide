@@ -240,13 +240,17 @@ Available for free online: http://learnyouahaskell.com/chapters
 
 You will realize that certain problems are better tackled in an object oriented way and other problems are better tackled in a functional way, for example mapping is easier than looping. Object-functional languages such as python and scala let you choose depending on your needs.
 
-##Scope: understand what closure is.
+##Scope: 
+
+* Understand what closure is.
 
 Read the wikipedia article: https://en.wikipedia.org/wiki/Closure_(computer_programming)
 
 Read: You Don't Know Js: scope and closures by Kyle Simpson
 
-##Memory management: Know the difference between explicit (manual) memory management and implicit (automatic) management, also known as garbage collection.
+##Memory management: 
+
+* Know the difference between explicit (manual) memory management and implicit (automatic) management, also known as garbage collection.
 
 There is no better way to understand this then by learning to program in C. C demands explicit memory management. Try and write a C program which dereferences but does not deallocate it's data inside an infinite loop. It should crash after a while and bring your computer to a standstill. Then try de-allocating the memory using the free() function before dereferencing it in each iteration of the loop. This time the program should run forever and not run out of memory.
 
