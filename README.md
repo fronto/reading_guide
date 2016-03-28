@@ -291,7 +291,7 @@ I wont recommend any concurrency books right now as this really depends on which
 
 Try and have a main programming language and a scripting language. In your case, you main programming language can be used as a scripting language. Consider learning another language. Javascript would be very useful for front-end programming at work. C would be very useful for understanding how computers work. Go combines elements of python and C. Java is also a good one with a lot of job opportunities. Scala is in vogue at the moment but IMHO overrated. 
 
-Get good at using the command line. Learn to use shell utilities such as find, grep, xargs, cat, cut, sed, awk. Use git from the command line. Chain shell commands together using pipes. (eg find . -type f -name Ô*.py' | xargs grep "def" ). Consider installing "bropages", which is easier to read than the man pages, and has practical examples.
+Get good at using the command line. Learn to use shell utilities such as find, grep, xargs, cat, cut, sed, awk. Use git from the command line. Chain shell commands together using pipes. (eg find . -type f -name *.py' | xargs grep "def" ). Consider installing "bropages", which is easier to read than the man pages, and has practical examples.
 
 Learn unix/linux command line network tools such as ping, telnet, netstat, host, ifconfig, ssh, scp, curl
 
