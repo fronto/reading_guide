@@ -296,17 +296,17 @@ I wont recommend any concurrency books right now as this really depends on which
 
 #Ok enough computer science, now onto the software engineering side of things:
 
-Try and have a main programming language and a scripting language. In your case, you main programming language can be used as a scripting language. Consider learning another language. Javascript would be very useful for front-end programming at work. C would be very useful for understanding how computers work. Go combines elements of python and C. Java is also a good one with a lot of job opportunities. Scala is in vogue at the moment but IMHO overrated. 
+* Try and have a main programming language and a scripting language. In your case, you main programming language can be used as a scripting language. Consider learning another language. Javascript would be very useful for front-end programming at work. C would be very useful for understanding how computers work. Go combines elements of python and C. Java is also a good one with a lot of job opportunities. Scala is in vogue at the moment but IMHO overrated. 
 
-Get good at using the command line. Learn to use shell utilities such as find, grep, xargs, cat, cut, sed, awk. Use git from the command line. Chain shell commands together using pipes. (eg find . -type f -name *.py' | xargs grep "def" ). Consider installing "bropages", which is easier to read than the man pages, and has practical examples.
+* Get good at using the command line. Learn to use shell utilities such as find, grep, xargs, cat, cut, sed, awk. Use git from the command line. Chain shell commands together using pipes. (eg find . -type f -name *.py' | xargs grep "def" ). Consider installing "bropages", which is easier to read than the man pages, and has practical examples.
 
-Learn unix/linux command line network tools such as ping, telnet, netstat, host, ifconfig, ssh, scp, curl
+* Learn unix/linux command line network tools such as ping, telnet, netstat, host, ifconfig, ssh, scp, curl
 
-Learn a command line based text editor such as vim, emacs or even sublime text. Generally the harder it is to learn the more you can do with it. Try vimtutor.
+* Learn a command line based text editor such as vim, emacs or even sublime text. Generally the harder it is to learn the more you can do with it. Try vimtutor.
 
-Learn to use your IDE effectively. Learn the keyboard shortcuts. Intellij Idea has a plugin called KeyPromoter which prompts you with the keyboard shortcut every-time you use the mouse. I do not know if it will work with PyCharm.
+* Learn to use your IDE effectively. Learn the keyboard shortcuts. Intellij Idea has a plugin called KeyPromoter which prompts you with the keyboard shortcut every-time you use the mouse. I do not know if it will work with PyCharm.
 
-Master Test Driven Development. Know the difference between a unit test, an integration test and an automated acceptance test. Know the pyramid or ice berg model => lots of fast running unit tests close to the code, compared to a few slow running end-to-end tests that test the application as a whole. Get into the red-green-refactor flow. Understand how continuous integration and test-automation minimize the number of bugs in software. Understand that TDD is as much about design as it is about testing. Testable code tends to be well designed code.
+* Master Test Driven Development. Know the difference between a unit test, an integration test and an automated acceptance test. Know the pyramid or ice berg model => lots of fast running unit tests close to the code, compared to a few slow running end-to-end tests that test the application as a whole. Get into the red-green-refactor flow. Understand how continuous integration and test-automation minimize the number of bugs in software. Understand that TDD is as much about design as it is about testing. Testable code tends to be well designed code.
 
     TDD books:
     
@@ -314,7 +314,7 @@ Master Test Driven Development. Know the difference between a unit test, an inte
      Test Driven Development with Python by Percival (Useful to you)
      Growing object oriented software guided by tests by Freeman and Pryce (This book shows how test actually influence the design of the code, and how to write code that is highly readable and highly testable. This book is more for someone who is already used to TDD, who wants to do it better.)
 
- Learn design patterns. Most important are the "Gang of four". Some of these patterns are now redundant, as programming languages have evolved to incorporate them into the grammar of the respective languages themselves. Hint: design patterns in current programming languages often portend changes in future programming languages. In so far as web programming and relational databases are concerned, learn the "Patterns of Enterprise Application Architecture", PoEAA for short, named after the book by Fowler. Many of these patterns are also out of date now but many of them are still used, particularly the object-relational patterns. There are also the IEP (Enterprise Integration Patterns), though in practice you will hardly ever use these. Your time would be better spent learning about REST and micro-services than IEP => IEP tends to be used on monolithic systems which are being disrupted by the emergence of micro-services.
+* Learn design patterns. Most important are the "Gang of four". Some of these patterns are now redundant, as programming languages have evolved to incorporate them into the grammar of the respective languages themselves. Hint: design patterns in current programming languages often portend changes in future programming languages. In so far as web programming and relational databases are concerned, learn the "Patterns of Enterprise Application Architecture", PoEAA for short, named after the book by Fowler. Many of these patterns are also out of date now but many of them are still used, particularly the object-relational patterns. There are also the IEP (Enterprise Integration Patterns), though in practice you will hardly ever use these. Your time would be better spent learning about REST and micro-services than IEP => IEP tends to be used on monolithic systems which are being disrupted by the emergence of micro-services.
 
    Design patterns books:
    
@@ -330,15 +330,15 @@ Master Test Driven Development. Know the difference between a unit test, an inte
 
  
 
-Learn the dependency injection principle. Know the difference between tight coupling and loose coupling. Know why loose coupling is preferable. Know that loose coupling is achieved through dependency injection. Know the difference between dependency injection and inversion of control. Hint: Dependency injection achieves loose coupling between classes where as inversion of control achieves loose coupling between modules. Understand that DI makes classes easier to test, especially with mocks.
+* Learn the dependency injection principle. Know the difference between tight coupling and loose coupling. Know why loose coupling is preferable. Know that loose coupling is achieved through dependency injection. Know the difference between dependency injection and inversion of control. Hint: Dependency injection achieves loose coupling between classes where as inversion of control achieves loose coupling between modules. Understand that DI makes classes easier to test, especially with mocks.
 
     Read Clean Code by Robert C. Martin
 
-Learn the Law of Demeter or "tell, don't ask". Understand why getters are evil, and why it is important to encapsulate behavior as well as state. Understand how Demeter makes code more readable and testable by chunking code more uniformly across your classes, and making behavior easier to mock in unit tests. 
+* Learn the Law of Demeter or "tell, don't ask". Understand why getters are evil, and why it is important to encapsulate behavior as well as state. Understand how Demeter makes code more readable and testable by chunking code more uniformly across your classes, and making behavior easier to mock in unit tests. 
 
     Law of Demeter is discussed in the Pragmatic Programmer
 
-Learn about Domain Driven Design (DDD). Learn how to separate code that contains business logic from code that uses framework specific classes. Understand why this makes code easier to test. Keep business logic in a separate module away from persistence layers and web layers. Use inversion of control and dependency injection to achieve this. Realize that Domain Driven Design, Test Driven Development and Dependency Injection form the "holy trinity" of modern enterprise software development, with each one complementing the other.
+* Learn about Domain Driven Design (DDD). Learn how to separate code that contains business logic from code that uses framework specific classes. Understand why this makes code easier to test. Keep business logic in a separate module away from persistence layers and web layers. Use inversion of control and dependency injection to achieve this. Realize that Domain Driven Design, Test Driven Development and Dependency Injection form the "holy trinity" of modern enterprise software development, with each one complementing the other.
 
       Domain Driven Design by Eric Evans is the original DDD book, a bit long winded
 
@@ -356,13 +356,13 @@ It may not be necessary to read an entire book on DDD as long as you know what t
 * Value Objects
 * Bounded Context
 
- Understand the principles of continuous delivery. See software deployments as being a bit like a factory production line, from your workstation to the continuous integration server, to QA, to staging, and then finally to production. Try and automate as many of the steps as possible, without compromising quality. Understand release management, tagging and versioning.
+* Understand the principles of continuous delivery. See software deployments as being a bit like a factory production line, from your workstation to the continuous integration server, to QA, to staging, and then finally to production. Try and automate as many of the steps as possible, without compromising quality. Understand release management, tagging and versioning.
 
       Continuous Delivery by Jez Humble
 
-Understand the difference between virtualization and containerization. Try using  at least one of the tools and libraries that allow for the rapid creation of VMs and containers (such as Vagrant and Docker). Understand the advantages of scripting environments, when it comes to horizontal scaling and load-balancing. Understand the advantages of scripting environments when it comes to creating  a deployment pipeline where the workstation, QA, Staging and production are almost exactly the same.
+* Understand the difference between virtualization and containerization. Try using  at least one of the tools and libraries that allow for the rapid creation of VMs and containers (such as Vagrant and Docker). Understand the advantages of scripting environments, when it comes to horizontal scaling and load-balancing. Understand the advantages of scripting environments when it comes to creating  a deployment pipeline where the workstation, QA, Staging and production are almost exactly the same.
 
-Develop an affinity with agile development processes. Find out who W. Edwards Demming was and find out a little about Japanese lean manufacturing. Find out how the software industry has tried to use these ideas to solve the Software Productivity Crisis. Important points are focusing on quality (refactoring, TDD) at the micro-level to improve productivity at the macro-level (rapid, reliable software releases). Identifying bottlenecks and waste in a process by taking measurements (such as how long does it take to get from a git push to a production release?). Understand that measurements are subject to statistical variation and may not be accurate in the short term. This is particularly the case for user story points during a sprint. It is necessary to aggregate measurements to get useful information (i.e. "what is the average story point velocity of the team over 8 sprints?" is a better question to ask than "how long did Rosa take to do task X?").  Look at the similarities between a Demming cycle and a unit test. Try and see everything thing as repeated cycles of varying duration (from running a unit test, to daily stand-ups, to sprints). Each iteration is a chance to improve on the one that came before it. Unlike building a bridge or developing an oil platform, software is malleable, you can change it after you have made it, and therefore lends itself to short iterative cycles rather than phased (waterfall) development models used in other engineering disciplines. Realize that scrum is just a business process and does nothing to address the technical side of agile software development.  Many companies abuse scrum and use it as a way of micro-managing their staff, focusing exclusively on how fast features are delivered while neglecting the accretion of technical debt, resulting in misplaced blame and failed projects. Scrum has spawned a cottage industry with certifications and consultants peddling scrum as the secret sauce which will save your project. It is useful but it is not a panacea. It is outright harmful when misused in the way I have described above. Fowler refers to this is as "flaccid scrum".
+* Develop an affinity with agile development processes. Find out who W. Edwards Demming was and find out a little about Japanese lean manufacturing. Find out how the software industry has tried to use these ideas to solve the Software Productivity Crisis. Important points are focusing on quality (refactoring, TDD) at the micro-level to improve productivity at the macro-level (rapid, reliable software releases). Identifying bottlenecks and waste in a process by taking measurements (such as how long does it take to get from a git push to a production release?). Understand that measurements are subject to statistical variation and may not be accurate in the short term. This is particularly the case for user story points during a sprint. It is necessary to aggregate measurements to get useful information (i.e. "what is the average story point velocity of the team over 8 sprints?" is a better question to ask than "how long did Rosa take to do task X?").  Look at the similarities between a Demming cycle and a unit test. Try and see everything thing as repeated cycles of varying duration (from running a unit test, to daily stand-ups, to sprints). Each iteration is a chance to improve on the one that came before it. Unlike building a bridge or developing an oil platform, software is malleable, you can change it after you have made it, and therefore lends itself to short iterative cycles rather than phased (waterfall) development models used in other engineering disciplines. Realize that scrum is just a business process and does nothing to address the technical side of agile software development.  Many companies abuse scrum and use it as a way of micro-managing their staff, focusing exclusively on how fast features are delivered while neglecting the accretion of technical debt, resulting in misplaced blame and failed projects. Scrum has spawned a cottage industry with certifications and consultants peddling scrum as the secret sauce which will save your project. It is useful but it is not a panacea. It is outright harmful when misused in the way I have described above. Fowler refers to this is as "flaccid scrum".
 
 The problem:
 
@@ -395,13 +395,13 @@ http://www.laputan.org/mud/
 
 
 
-Get active in the online community:
+* Get active in the online community:
 
 Create stackoverflow.com account if you don't already have one. Don't be afraid to ask questions through stackoverflow. There are no stupid questions, only stupid answers.
 
 Create a github account if you don't already have one. Create a toolbox on github that you can take from one project or company to another.Clone a project that you are interested in
 
-15) Enjoy yourself, don't exhaust yourself :)
+* Enjoy yourself, don't exhaust yourself :)
 
  
 
