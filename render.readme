@@ -1,0 +1,4 @@
+#!/usr/bin/ruby
+
+require 'github/markup'
+GitHub::Markup.render('README.md')
