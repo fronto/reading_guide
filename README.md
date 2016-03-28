@@ -335,11 +335,11 @@ http://www.infoq.com/minibooks/domain-driven-design-quickly
 
 It may not be necessary to read an entire book on DDD as long as you know what the following are:
 
-*Services
-*Repositories
-*Entities
-*Value Objects
-*Bounded Context
+* Services
+* Repositories
+* Entities
+* Value Objects
+* Bounded Context
 
  Understand the principles of continuous delivery. See software deployments as being a bit like a factory production line, from your workstation to the continuous integration server, to QA, to staging, and then finally to production. Try and automate as many of the steps as possible, without compromising quality. Understand release management, tagging and versioning.
 
