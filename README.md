@@ -314,7 +314,13 @@ I wont recommend any concurrency books right now as this really depends on which
 
 * Learn to use your IDE effectively. Learn the keyboard shortcuts. Intellij Idea has a plugin called KeyPromoter which prompts you with the keyboard shortcut every-time you use the mouse. I do not know if it will work with PyCharm.
 
-* Master Test Driven Development. Know the difference between a unit test, an integration test and an automated acceptance test. Know the pyramid or ice berg model => lots of fast running unit tests close to the code, compared to a few slow running end-to-end tests that test the application as a whole. Get into the red-green-refactor flow. Understand how continuous integration and test-automation minimize the number of bugs in software. Understand that TDD is as much about design as it is about testing. Testable code tends to be well designed code.
+* Master Test Driven Development.
+  * Know the difference between a unit test, an integration test and an automated acceptance test.
+  * Know the pyramid or ice berg model => lots of fast running unit tests close to the code, compared to a few slow running end-to-end tests that test the application as a whole.
+  * Get into the red-green-refactor flow.
+  * Understand how continuous integration and test-automation minimize the number of bugs in software.i
+  * Understand that TDD is as much about design as it is about testing.
+  * Testable code tends to be well designed code.
 
     TDD books:
     
