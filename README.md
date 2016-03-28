@@ -1,11 +1,3 @@
-```
-0
- 1
-  2
-   3
-    4
-```
-    
 # READING GUIDE
 
 "Right now, I'm trying hard to become better at programming. I remember that you mentioned two books: Pragmatic Programming (Hunt & Thomas) and Refactoring (Martin Fowler). Is there another book of which you think a starting programmer must have?"
