@@ -303,7 +303,10 @@ I wont recommend any concurrency books right now as this really depends on which
   * Java is also a good one with a lot of job opportunities. 
   * Scala is in vogue at the moment but IMHO overrated. 
 
-* Get good at using the command line. Learn to use shell utilities such as find, grep, xargs, cat, cut, sed, awk. Use git from the command line. Chain shell commands together using pipes. (eg find . -type f -name *.py' | xargs grep "def" ). Consider installing "bropages", which is easier to read than the man pages, and has practical examples.
+* Get good at using the command line.
+  * Learn to use shell utilities such as find, grep, xargs, cat, cut, sed, awk.
+  * Use git from the command line. Chain shell commands together using pipes. (eg find . -type f -name *.py' | xargs grep "def" ).
+  * Consider installing "bropages", which is easier to read than the man pages, and has practical examples.
 
 * Learn unix/linux command line network tools such as ping, telnet, netstat, host, ifconfig, ssh, scp, curl
 
