@@ -122,7 +122,7 @@ IETF and RFCs (formal protocol definitions)
 
 Checkout their websites or just use wikipedia. 
 
-Data structures and algorithms:
+##Data structures and algorithms:
 
 Data structures and algorithms is one of those foundational subjects that you find everywhere. Main subject areas include:
 
@@ -143,7 +143,7 @@ Data structures and algorithms are ubiquitous in software engineering, even thou
 
 There are innumerable books on this subject, so I will only name a few:
 
-##Data structures and Algorithms in Python by Goodrich, Tamassia and Goldwasser
+Data structures and Algorithms in Python by Goodrich, Tamassia and Goldwasser
 
 This book should be very accessible to you because the example code is in python.
 
