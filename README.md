@@ -503,8 +503,8 @@ I wont recommend any concurrency books right now as this really depends on which
   * Try using  at least one of the tools and libraries that allow for the rapid creation of VMs (such as Vagrant or Chef).
   * Try using Docker to create a running container on your workstation. Why are containers not so good for databases? Hint: databases are mutable. 
   * Appreciate that it is risky to change configutation on a live productive server, and that it is better to re-create the server in it's entirity, and/or store configuration elsewhere (NB configuration should not be placed in your code either!!).
-  * Understand the advantages of scripting environments, when it comes to horizontal scaling and load-balancing.
-  * Understand the advantages of scripting environments when it comes to creating  a deployment pipeline where the workstation, QA, Staging and production are almost exactly the same.
+  * Understand the advantages of code as infrastructure, when it comes to horizontal scaling and load-balancing.
+  * Understand the advantages of code as infrastructure it comes to creating  a deployment pipeline where the workstation, QA, Staging and production are almost exactly the same.
 
 * ##Develop an affinity with agile development processes.
   * Find out who W. Edwards Demming was and find out a little about Japanese lean manufacturing.
