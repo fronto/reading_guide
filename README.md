@@ -187,7 +187,7 @@ It is neither practical nor easy to digest.
 
 Encryption is a huge topic so I will limit my discussion to what is important:
 
-* Understand the difference between symmetric cryptography and asymmetric cryptography. This is very important for securing computer network traffic using SSL/TLS. Once you have grasped the concepts it is worth reading about how the SSL/TLS handshake works, as it uses asymmetric encryption to exchange exchange a keys that are then used for symmetric encryption.
+* Understand the difference between symmetric cryptography and asymmetric cryptography. This is very important for securing computer network traffic using SSL/TLS. Once you have grasped the concepts it is worth reading about how the SSL/TLS handshake works, as it uses asymmetric encryption to exchange exchange keys that are then used for symmetric encryption.
 
 * Understand how asymmetric cryptography can be used to transport encrypted information or digitally sign unencrypted information, in both cases using key-pairs, one of which is designated private and the other one public.
 
@@ -202,13 +202,18 @@ Encryption is a huge topic so I will limit my discussion to what is important:
 
 Sams Teach yourself TCP/IP by Joe Casad, which I mentioned in the networking section covers the difference between systemic and asymmetric encryption
 
-Understanding Cryptography by Paar Peizi and Preneel is book which is both rigorous and accessible if you want to deepen your knowledge.
+A book which is both rigorous and accessible if you want to deepen your knowledge is:
+```
+Understanding Cryptography by Paar Peizi and Preneel 
+```
 
 Another really good source of information on this subject are the books by Bruce Schneier such as:
 
+```
 "Secrets and Lies: Digital Security in a networked world" -> easy to read
 "Cryptography Engineering" -> medium difficulty, with the technical reader in mind
 "Applied Cryptography" -> really difficult in depth 
+```
 
 Bruce Schneier is a world authority on computer and network security and written many books on the subject both for engineers and non-technical people - well worth having a look at.
 
