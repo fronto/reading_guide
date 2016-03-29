@@ -398,11 +398,26 @@ http://www.infoq.com/minibooks/domain-driven-design-quickly
     * Bounded Context
 
 
-* Understand the principles of continuous delivery. See software deployments as being a bit like a factory production line, from your workstation to the continuous integration server, to QA, to staging, and then finally to production. Try and automate as many of the steps as possible, without compromising quality. Understand release management, tagging and versioning.
+* ##Understand the principles of continuous delivery.
+  * See software deployments as being a bit like a factory production line, from your workstation to the continuous integration server, to QA, to staging, and then finally to production.
+  * Software releases are analogous to a product going down the production line.
+  * Try and automate as many of the steps of your deployment as possible, without compromising quality. 
+  * Try and minimize the time taken to get from a commit to a release.
+  * Understand release management, tagging and versioning.
+  * Release early and often
 
       Continuous Delivery by Jez Humble
 
-* Understand the difference between virtualization and containerization. Try using  at least one of the tools and libraries that allow for the rapid creation of VMs and containers (such as Vagrant and Docker). Understand the advantages of scripting environments, when it comes to horizontal scaling and load-balancing. Understand the advantages of scripting environments when it comes to creating  a deployment pipeline where the workstation, QA, Staging and production are almost exactly the same.
+* ##Grasp the concept of immutable infrastracture and appreciate the impact of cloud computing
+  * Microeconomics: understand the concept of economies of scale and economic specialization, and figure out why it is cheaper to deploy your software on someone else's data centre than run your own server, if you are a small company.
+  * Figure out what the difference is between IAAS, PAAS and SAAS. 
+  * Have a brief look at Amazon Web Services, Rackspace and Google Compute Engine.
+  * Understand the difference between virtualization and containerization.
+  * Try using  at least one of the tools and libraries that allow for the rapid creation of VMs (such as Vagrant or Chef).
+  * Try using Docker to create a running container on your workstation. Why are containers not so good for databases? Hint: databases are mutable. 
+  * Appreciate that it is risky to change configutation on a live productive server, and that it is better to re-create the server in it's entirity, and/or store configuration elsewhere (NB configuration should not be placed in your code either!!).
+  * Understand the advantages of scripting environments, when it comes to horizontal scaling and load-balancing.
+  * Understand the advantages of scripting environments when it comes to creating  a deployment pipeline where the workstation, QA, Staging and production are almost exactly the same.
 
 * Develop an affinity with agile development processes. Find out who W. Edwards Demming was and find out a little about Japanese lean manufacturing. Find out how the software industry has tried to use these ideas to solve the Software Productivity Crisis. Important points are focusing on quality (refactoring, TDD) at the micro-level to improve productivity at the macro-level (rapid, reliable software releases). Identifying bottlenecks and waste in a process by taking measurements (such as how long does it take to get from a git push to a production release?). Understand that measurements are subject to statistical variation and may not be accurate in the short term. This is particularly the case for user story points during a sprint. It is necessary to aggregate measurements to get useful information (i.e. "what is the average story point velocity of the team over 8 sprints?" is a better question to ask than "how long did Rosa take to do task X?").  Look at the similarities between a Demming cycle and a unit test. Try and see everything thing as repeated cycles of varying duration (from running a unit test, to daily stand-ups, to sprints). Each iteration is a chance to improve on the one that came before it. Unlike building a bridge or developing an oil platform, software is malleable, you can change it after you have made it, and therefore lends itself to short iterative cycles rather than phased (waterfall) development models used in other engineering disciplines. Realize that scrum is just a business process and does nothing to address the technical side of agile software development.  Many companies abuse scrum and use it as a way of micro-managing their staff, focusing exclusively on how fast features are delivered while neglecting the accretion of technical debt, resulting in misplaced blame and failed projects. Scrum has spawned a cottage industry with certifications and consultants peddling scrum as the secret sauce which will save your project. It is useful but it is not a panacea. It is outright harmful when misused in the way I have described above. Fowler refers to this is as "flaccid scrum".
 
