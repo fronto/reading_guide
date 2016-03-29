@@ -219,134 +219,134 @@ Having some foundational knowledge in computer science can help you be a better 
   
 #General programming knowledge that is useful:
 
-##Understand different types of programming models:
+  * ##Understand different types of programming models:
+  
+  * Declarative (SQL, html)
+  * Imperative (C programming)
+  * Object-oriented (java, javascript)
+  * Functional (Haskell)
+  * Hybrid models such as object-functional (scala)
+  * (python can actually be used in an imperative, objected-oriented and object-functional way)
+  
+  A good general book on this subject is:
+  
+  ```
+  Programming language pragmatics by Michael L. Scott
+  ```
 
-* Declarative (SQL, html)
-* Imperative (C programming)
-* Object-oriented (java, javascript)
-* Functional (Haskell)
-* Hybrid models such as object-functional (scala)
-* (python can actually be used in an imperative, objected-oriented and object-functional way)
+* ##Type systems: 
+  
+  * know the difference between a strong and a weak type system
+  * know the difference between and static and a dynamic type system
+  
+  Wikipedia has some good disambiguation on this subject.
+  
+  ##Important object oriented concepts: 
+  
+  * Abstraction 
+  * encapsulation
+  * inheritance
+  * separation of concerns
+  
+  A hands on guide on object orientation is:
+  
+  ```
+  Head First Object Oriented Analysis and Design by McLaughlin, Police and West
+  ```
+  
+  A very long and theoretical, but still effective book on object orientation:
+  
+  ```
+  A Touch of Class by Bertrand Meyer
+  ```
+  
+  The problem with this book is that it uses Eiffel for the example code. You have to learn another language just to read the book!
 
-A good general book on this subject is:
-
-```
-Programming language pragmatics by Michael L. Scott
-```
-
-##Type systems: 
-
-* know the difference between a strong and a weak type system
-* know the difference between and static and a dynamic type system
-
-Wikipedia has some good disambiguation on this subject.
-
-##Important object oriented concepts: 
-
-* Abstraction 
-* encapsulation
-* inheritance
-* separation of concerns
-
-A hands on guide on object orientation is:
-
-```
-Head First Object Oriented Analysis and Design by McLaughlin, Police and West
-```
-
-A very long and theoretical, but still effective book on object orientation:
-
-```
-A Touch of Class by Bertrand Meyer
-```
-
-The problem with this book is that it uses Eiffel for the example code. You have to learn another language just to read the book!
-
-##Important functional programming concepts:
-
-* Deferred or lazy evaluation
-* currying
-* memorization
-* tail call optimization
-
-A hands-on guide to these concepts is:
-
-```
-Functional thinking: paradigm over syntax by Neal Ford
-```
-
-A deeper dive into functional programming is to study Haskell by reading:
-
-```
-Learn you a Haskell for great good by Miran Lipovaca
-```
-
-Available for free online: http://learnyouahaskell.com/chapters
-
-You will realize that certain problems are better tackled in an object oriented way and other problems are better tackled in a functional way, for example mapping is easier than looping. Object-functional languages such as python and scala let you choose depending on your needs.
-
-##Scope: 
-
-* Understand what closure is.
-
-Read the wikipedia article: https://en.wikipedia.org/wiki/Closure_(computer_programming)
-
-Read: 
-
-```
-You Don't Know Js: scope and closures by Kyle Simpson
-```
-
-##Memory management: 
-
-* Know the difference between explicit (manual) memory management and implicit (automatic) management, also known as garbage collection.
-
-There is no better way to understand this then by learning to program in C. C demands explicit memory management. Try and write a C program which dereferences but does not deallocate it's data inside an infinite loop. It should crash after a while and bring your computer to a standstill. Then try de-allocating the memory using the free() function before dereferencing it in each iteration of the loop. This time the program should run forever and not run out of memory.
-
-Most of the higher level languages that we program in such as python are actually created using C. Operating systems and network protocol implementations also tend to be written in C. Although it is unlikely that you will ever end up using C in your job, it is a good language to learn for the purpose of deepening your knowledge of how computers work.
-
-Higher level languages have garbage collectors that handle the freeing of memory for you when your program is running, so you do not have to think about it while you are coding. For example if you assign a python variable to one object and then assign it to another, the first object is no longer needed and the memory it occupies must be freed. You never have to think about this when programming in python because the python garbage collector tracks the number of variables pointing to a given object. When this number drops to zero the object is "removed" from memory. 
-
-##Runtimes and execution models:
-
-Strive to obtain a high level, abstract understanding of what these things are:
-
-* Know the difference between compiling a program and running it
-* Know the difference between a compiled and interpreted programming language.
-* Know the difference between pre-execution compilation and just-in-time compilation.
-* Get an idea of the process of compiling then running a program (pre-processing => compilation => assembly => linking => loading)
-* Know how the stack and the heap is used to hold the program's memory and state.
-
-To learn C programming:
-
-```
-Sams Teach your C in one hour a day, by Jones, Aitken and Miller
-The C Programming Language by Kerrighan and Ritchie (Also known as "K&R")
-Understanding and using C pointers by Richard Reece
-```
-
-To learn about computer systems:
-
-```
-Computer Systems: a Programmers perspective by Bryant and O'Halleron
-```
-
-I cannot understate how useful the Bryant and O'Halleron book is for a complete understanding of how a computer works and how programs are compiled and run. Some of the older editions of this book are available for free online
-
-##Concurrency:
-
-* Know what threads are
-* Know what shared memory is (hint: heap memory)
-* Know that each thread has it's own execution stack (memory on the stack is local to that thread and not available to other threads)
-* Know what a race condition is and how one can use locking to prevent them
-* Know what locking is, and what re-entrant locks are
-* Know what semaphores are
-* Know what deadlock conditions and live-locks are
-* Know that the mathematical foundations of concurrent programs amount to governing access to shared mutable state. These mathematical "rules" are the same across different programming languages.
-* Know how to avoid concurrency problems altogether (hint: actors, functional programming)
-
-I wont recommend any concurrency books right now as this really depends on which programming language you are using. That said bare in mind that the underlying principles of concurrency are the same in all programming languages.
-
+* ##Important functional programming concepts:
+  
+  * Deferred or lazy evaluation
+  * currying
+  * memorization
+  * tail call optimization
+  
+  A hands-on guide to these concepts is:
+  
+  ```
+  Functional thinking: paradigm over syntax by Neal Ford
+  ```
+  
+  A deeper dive into functional programming is to study Haskell by reading:
+  
+  ```
+  Learn you a Haskell for great good by Miran Lipovaca
+  ```
+  
+  Available for free online: http://learnyouahaskell.com/chapters
+  
+  You will realize that certain problems are better tackled in an object oriented way and other problems are better tackled in a functional way, for example mapping is easier than looping. Object-functional languages such as python and scala let you choose depending on your needs.
+  
+* ##Scope: 
+  
+  * Understand what closure is.
+  
+  Read the wikipedia article: https://en.wikipedia.org/wiki/Closure_(computer_programming)
+  
+  Read: 
+  
+  ```
+  You Don't Know Js: scope and closures by Kyle Simpson
+  ```
+  
+* ##Memory management: 
+  
+  * Know the difference between explicit (manual) memory management and implicit (automatic) management, also known as garbage collection.
+  
+  There is no better way to understand this then by learning to program in C. C demands explicit memory management. Try and write a C program which dereferences but does not deallocate it's data inside an infinite loop. It should crash after a while and bring your computer to a standstill. Then try de-allocating the memory using the free() function before dereferencing it in each iteration of the loop. This time the program should run forever and not run out of memory.
+  
+  Most of the higher level languages that we program in such as python are actually created using C. Operating systems and network protocol implementations also tend to be written in C. Although it is unlikely that you will ever end up using C in your job, it is a good language to learn for the purpose of deepening your knowledge of how computers work.
+  
+  Higher level languages have garbage collectors that handle the freeing of memory for you when your program is running, so you do not have to think about it while you are coding. For example if you assign a python variable to one object and then assign it to another, the first object is no longer needed and the memory it occupies must be freed. You never have to think about this when programming in python because the python garbage collector tracks the number of variables pointing to a given object. When this number drops to zero the object is "removed" from memory. 
+  
+* ##Runtimes and execution models:
+  
+  Strive to obtain a high level, abstract understanding of what these things are:
+  
+  * Know the difference between compiling a program and running it
+  * Know the difference between a compiled and interpreted programming language.
+  * Know the difference between pre-execution compilation and just-in-time compilation.
+  * Get an idea of the process of compiling then running a program (pre-processing => compilation => assembly => linking => loading)
+  * Know how the stack and the heap is used to hold the program's memory and state.
+  
+  To learn C programming:
+  
+  ```
+  Sams Teach your C in one hour a day, by Jones, Aitken and Miller
+  The C Programming Language by Kerrighan and Ritchie (Also known as "K&R")
+  Understanding and using C pointers by Richard Reece
+  ```
+  
+  To learn about computer systems:
+  
+  ```
+  Computer Systems: a Programmers perspective by Bryant and O'Halleron
+  ```
+  
+  I cannot understate how useful the Bryant and O'Halleron book is for a complete understanding of how a computer works and how programs are compiled and run. Some of the older editions of this book are available for free online
+  
+* ##Concurrency:
+  
+  * Know what threads are
+  * Know what shared memory is (hint: heap memory)
+  * Know that each thread has it's own execution stack (memory on the stack is local to that thread and not available to other threads)
+  * Know what a race condition is and how one can use locking to prevent them
+  * Know what locking is, and what re-entrant locks are
+  * Know what semaphores are
+  * Know what deadlock conditions and live-locks are
+  * Know that the mathematical foundations of concurrent programs amount to governing access to shared mutable state. These mathematical "rules" are the same across different programming languages.
+  * Know how to avoid concurrency problems altogether (hint: actors, functional programming)
+  
+  I wont recommend any concurrency books right now as this really depends on which programming language you are using. That said bare in mind that the underlying principles of concurrency are the same in all programming languages.
+  
 #Ok enough computer science, now onto the software engineering side of things:
 
 * ##Program in more than one language
