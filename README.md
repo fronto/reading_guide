@@ -34,7 +34,7 @@ Having some foundational knowledge in computer science can help you be a better 
 
 A good theoretical understanding of these concepts can be obtained by reading any standard university textbook. Two very popular ones are:
 
-" Operating Systems Concepts" Silberschatz, Galvin and Gagne
+"Operating Systems Concepts" by Silberschatz, Galvin and Gagne
 "Modern Operating Systems" by Andrew S. Tanenbaum
 
 Earlier pdf editions of these books can be obtained from: 
