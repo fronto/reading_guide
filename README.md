@@ -34,8 +34,10 @@ Having some foundational knowledge in computer science can help you be a better 
 
 A good theoretical understanding of these concepts can be obtained by reading any standard university textbook. Two very popular ones are:
 
+```
 "Operating Systems Concepts" by Silberschatz, Galvin and Gagne
 "Modern Operating Systems" by Andrew S. Tanenbaum
+```
 
 Earlier pdf editions of these books can be obtained from: 
 
@@ -43,7 +45,9 @@ http://freecomputerbooks.com
 
 On the practical side the most immediately useful book I can recommend on this subject is:
 
+```
 "A practical guide to Linux commands, editors and shell programming" by Mark G. Sobell
+```
 
 This is really good because it is very hands-on, providing just enough theory and a lot of practice that will be useful to you in your day job. It is a lot more focused on how to use linux/unix than how linux/unix actually works. Here is the free online version of the second edition:
 
@@ -51,7 +55,9 @@ http://www.aem.umn.edu/~aem3100/spring2013/Prentice_Hall_A_Practical_Guide_to_Li
 
 For a more thorough overview of how to use and configure Linux I would also recommend:
 
+```
 "The Unix and Linux system administration handbook, 4th edition" by Nemith, Snyder Hein and Walley. 
+```
 
 Here is book's website:
 
@@ -61,7 +67,9 @@ A lot of the narratives in this book are very descriptive but there is also a he
 
 For a more rigorous understanding of the internals of Linux and Unix I would recommend: 
 
+```
 "How Linux Works, 2nd edition" by Brian Ward
+```
 
 https://www.nostarch.com/howlinuxworks2
 
@@ -69,7 +77,9 @@ No point reading this book unless you are already familiar with using Linux and/
 
 For an understanding of how Linux and/or Unix really work read the following
 
+```
 "Advanced Programming in the Unix Environment, 3rd edition" by Stevens and Rago
+```
 
 http://www.apuebook.com/cover3e.html
 
@@ -77,7 +87,9 @@ This book is very applied, and gives very descriptive narratives next to excerpt
 
 There is another s a book in which the reader "creates" a mini Unix-like operating system themselves:
 
+```
 "Operating Systems: design and implementation" by Andrew S. Tanenbaum.
+```
 
 http://index-of.es/eBooks/Operating%20Systems%20Design%20&%20Implementation%203rd%20Edition(1).pdf
 
