@@ -221,12 +221,12 @@ Having some foundational knowledge in computer science can help you be a better 
 
   * ##Understand different types of programming models:
   
-  * Declarative (SQL, html)
-  * Imperative (C programming)
-  * Object-oriented (java, javascript)
-  * Functional (Haskell)
-  * Hybrid models such as object-functional (scala)
-  * (python can actually be used in an imperative, objected-oriented and object-functional way)
+    * Declarative (SQL, html)
+    * Imperative (C programming)
+    * Object-oriented (java, javascript)
+    * Functional (Haskell)
+    * Hybrid models such as object-functional (scala)
+    * (python can actually be used in an imperative, objected-oriented and object-functional way)
   
   A good general book on this subject is:
   
