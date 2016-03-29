@@ -249,11 +249,16 @@ Wikipedia has some good disambiguation on this subject.
 * separation of concerns
 
 A hands on guide on object orientation is:
+
+```
 Head First Object Oriented Analysis and Design by McLaughlin, Police and West
+```
 
 A very long and theoretical, but still effective book on object orientation:
 
+```
 A Touch of Class by Bertrand Meyer
+```
 
 The problem with this book is that it uses Eiffel for the example code. You have to learn another language just to read the book!
 
@@ -266,11 +271,15 @@ The problem with this book is that it uses Eiffel for the example code. You have
 
 A hands-on guide to these concepts is:
 
+```
 Functional thinking: paradigm over syntax by Neal Ford
+```
 
 A deeper dive into functional programming is to study Haskell by reading:
 
+```
 Learn you a Haskell for great good by Miran Lipovaca
+```
 
 Available for free online: http://learnyouahaskell.com/chapters
 
@@ -282,7 +291,11 @@ You will realize that certain problems are better tackled in an object oriented 
 
 Read the wikipedia article: https://en.wikipedia.org/wiki/Closure_(computer_programming)
 
-Read: You Don't Know Js: scope and closures by Kyle Simpson
+Read: 
+
+```
+You Don't Know Js: scope and closures by Kyle Simpson
+```
 
 ##Memory management: 
 
