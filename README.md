@@ -23,77 +23,77 @@ Having some foundational knowledge in computer science can help you be a better 
 * Encryption
 
 
-##Operating systems:
+* ##Operating systems:
 
-* An understanding of the file system
-* An understanding of processes
-* An understanding of users and permissions
-* An understanding of virtual memory
-* An understanding of context switching and scheduling
-* An understanding of user space vs kernel space
+  * An understanding of the file system
+  * An understanding of processes
+  * An understanding of users and permissions
+  * An understanding of virtual memory
+  * An understanding of context switching and scheduling
+  * An understanding of user space vs kernel space
 
-A good theoretical understanding of these concepts can be obtained by reading any standard university textbook. Two very popular ones are:
-
-```
-"Operating Systems Concepts" by Silberschatz, Galvin and Gagne
-"Modern Operating Systems" by Andrew S. Tanenbaum
-```
-
-Earlier pdf editions of these books can be obtained from: 
-
-http://freecomputerbooks.com
-
-On the practical side the most immediately useful book I can recommend on this subject is:
-
-```
-"A practical guide to Linux commands, editors and shell programming" by Mark G. Sobell
-```
-
-This is really good because it is very hands-on, providing just enough theory and a lot of practice that will be useful to you in your day job. It is a lot more focused on how to use linux/unix than how linux/unix actually works. Here is the free online version of the second edition:
-
-http://www.aem.umn.edu/~aem3100/spring2013/Prentice_Hall_A_Practical_Guide_to_Linux_Commands_Editors_and_Shell_Programming_2nd.pdf
-
-For a more thorough overview of how to use and configure Linux I would also recommend:
-
-```
-"The Unix and Linux system administration handbook, 4th edition" by Nemith, Snyder Hein and Walley. 
-```
-
-Here is book's website:
-
-http://www.admin.com/
-
-A lot of the narratives in this book are very descriptive but there is also a hell of lot that you will not need unless you are a system administrator. 
-
-For a more rigorous understanding of the internals of Linux and Unix I would recommend: 
-
-```
-"How Linux Works, 2nd edition" by Brian Ward
-```
-
-https://www.nostarch.com/howlinuxworks2
-
-No point reading this book unless you are already familiar with using Linux and/or Unix. Really useful stuff is how network configuration works and the contents of the /etc directory. Does not do what it says on the cover however. It only explains how parts of Linux work, and those parts do not include the core operating system.
-
-For an understanding of how Linux and/or Unix really work read the following
-
-```
-"Advanced Programming in the Unix Environment, 3rd edition" by Stevens and Rago
-```
-
-http://www.apuebook.com/cover3e.html
-
-This book is very applied, and gives very descriptive narratives next to excerpts from the operating system source code itself. It is the best book on the subject if you really want to understand the internals. It does however require that you are able to program in C. It is also very long, so reading it should be hobbyist pursuit, not a career priority.
-
-There is another s a book in which the reader "creates" a mini Unix-like operating system themselves:
-
-```
-"Operating Systems: design and implementation" by Andrew S. Tanenbaum.
-```
-
-http://index-of.es/eBooks/Operating%20Systems%20Design%20&%20Implementation%203rd%20Edition(1).pdf
-
-I should mention that Andrew S. Tanenbaum lectures at the VU in Amsterdam and is a world authority on Operating Systems and networks.
+  A good theoretical understanding of these concepts can be obtained by reading any standard university textbook. Two very popular ones are:
+  
+  ```
+  "Operating Systems Concepts" by Silberschatz, Galvin and Gagne
+  "Modern Operating Systems" by Andrew S. Tanenbaum
+  ```
+  
+  Earlier pdf editions of these books can be obtained from: 
+  
+  http://freecomputerbooks.com
+  
+  On the practical side the most immediately useful book I can recommend on this subject is:
+  
+  ```
+  "A practical guide to Linux commands, editors and shell programming" by Mark G. Sobell
+  ```
+  
+  This is really good because it is very hands-on, providing just enough theory and a lot of practice that will be useful to you in your day job. It is a lot more focused on how to use linux/unix than how linux/unix actually works. Here is the free online version of the second edition:
+  
+  http://www.aem.umn.edu/~aem3100/spring2013/Prentice_Hall_A_Practical_Guide_to_Linux_Commands_Editors_and_Shell_Programming_2nd.pdf
+  
+  For a more thorough overview of how to use and configure Linux I would also recommend:
+  
+  ```
+  "The Unix and Linux system administration handbook, 4th edition" by Nemith, Snyder Hein and Walley. 
+  ```
+  
+  Here is book's website:
+  
+  http://www.admin.com/
+  
+  A lot of the narratives in this book are very descriptive but there is also a hell of lot that you will not need unless you are a system administrator. 
+  
+  For a more rigorous understanding of the internals of Linux and Unix I would recommend: 
+  
+  ```
+  "How Linux Works, 2nd edition" by Brian Ward
+  ```
+  
+  https://www.nostarch.com/howlinuxworks2
+  
+  No point reading this book unless you are already familiar with using Linux and/or Unix. Really useful stuff is how network configuration works and the contents of the /etc directory. Does not do what it says on the cover however. It only explains how parts of Linux work, and those parts do not include the core operating system.
+  
+  For an understanding of how Linux and/or Unix really work read the following
+  
+  ```
+  "Advanced Programming in the Unix Environment, 3rd edition" by Stevens and Rago
+  ```
+  
+  http://www.apuebook.com/cover3e.html
+  
+  This book is very applied, and gives very descriptive narratives next to excerpts from the operating system source code itself. It is the best book on the subject if you really want to understand the internals. It does however require that you are able to program in C. It is also very long, so reading it should be hobbyist pursuit, not a career priority.
+  
+  There is another s a book in which the reader "creates" a mini Unix-like operating system themselves:
+  
+  ```
+  "Operating Systems: design and implementation" by Andrew S. Tanenbaum.
+  ```
+  
+  http://index-of.es/eBooks/Operating%20Systems%20Design%20&%20Implementation%203rd%20Edition(1).pdf
+  
+  I should mention that Andrew S. Tanenbaum lectures at the VU in Amsterdam and is a world authority on Operating Systems and networks.
 
 ##Networking:
 
