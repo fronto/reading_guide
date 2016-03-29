@@ -519,35 +519,46 @@ I wont recommend any concurrency books right now as this really depends on which
       * Scrum has spawned a cottage industry with certifications and consultants peddling scrum as the secret sauce which will save your project. 
       * Scrum is useful but it is not a panacea. It is downright harmful when misused in the way I have described above. Fowler refers to this is as "flaccid scrum".
 
-The problem:
+  The problem:
 
-https://en.wikipedia.org/wiki/Software_crisis
+  https://en.wikipedia.org/wiki/Software_crisis
 
-The solution:
+  The solution:
 
-Demming:
+  Demming:
 
-https://www.youtube.com/watch?v=GHvnIm9UEoQ
-https://www.youtube.com/watch?v=mKFGj8sK5R8
-https://www.youtube.com/watch?v=6WeTaLRb-Bs
+  * https://www.youtube.com/watch?v=GHvnIm9UEoQ
+  * https://www.youtube.com/watch?v=mKFGj8sK5R8
+  * https://www.youtube.com/watch?v=6WeTaLRb-Bs
 
-Agile Manifesto:
+  Agile Manifesto:
 
-http://agilemanifesto.org/ 
+  http://agilemanifesto.org/ 
 
-Books:
+  Books:
 
-Agile Estimating and planning by Mike Cohn
-The Art of agile development by Shore and Warden
+  ```
+  Agile Estimating and planning by Mike Cohn
+  The Art of agile development by Shore and Warden
+  ```
 
-When the solution becomes the problem:
+  When the solution becomes the problem:
 
-http://martinfowler.com/bliki/FlaccidScrum.html
+  http://martinfowler.com/bliki/FlaccidScrum.html
 
-What is technical debt anyway:
-https://www.youtube.com/watch?v=pqeJFYwnkjE
-http://www.laputan.org/mud/
+  What is technical debt anyway:
 
+  https://www.youtube.com/watch?v=pqeJFYwnkjE
+
+  When technical debt gets out of control
+  http://www.laputan.org/mud/
+
+  Not directly related to agile but interesting none-the-less:
+
+  ```
+  Peopleware by Tom De Marco and Tim Lister
+  The Mythical Man Month by Fred Brooks
+  ```
 
 
 * ##Get active in the online community:
