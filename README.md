@@ -466,13 +466,11 @@ http://www.laputan.org/mud/
 
 
 
-* Get active in the online community:
+* ##Get active in the online community:
+  * Create stackoverflow.com account if you don't already have one. Don't be afraid to ask questions through stackoverflow. There are no stupid questions, only stupid answers.
+  * Create a github account if you don't already have one. Create a toolbox on github that you can take from one project or company to another.Clone a project that you are interested in
 
-Create stackoverflow.com account if you don't already have one. Don't be afraid to ask questions through stackoverflow. There are no stupid questions, only stupid answers.
-
-Create a github account if you don't already have one. Create a toolbox on github that you can take from one project or company to another.Clone a project that you are interested in
-
-* Enjoy yourself, don't exhaust yourself :)
+* ##And finall enjoy yourself, don't exhaust yourself :)
 
  
 
