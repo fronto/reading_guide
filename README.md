@@ -95,50 +95,50 @@ Having some foundational knowledge in computer science can help you be a better 
   
   I should mention that Andrew S. Tanenbaum lectures at the VU in Amsterdam and is a world authority on Operating Systems and networks.
 
-##Networking:
-
-An understanding of computer networks is also "must-have" knowledge for a software engineer, whether you are setting up a production environment, or just trying to figure out if an application is running on your own work station by testing a certain port. Try and obtain the following knowledge:
-
-* An understating of the TCP/IP protocol stack.
-* Well known ports
-* Public and private IP addresses
-* IPv4 vs IPv6
-* An understanding of DNS and routing
-* An understanding of SSL/TLS, know what tunneling is and how to use ssh
-* Certificate signing, Certification chains , CAs and PKI
-* Http, REST
-
-The best practical introduction to networks that I can think of is:
-
-```
-Sams Teach yourself TCP/IP in 24 hours by Joe Casad
-```
-
-This book is not too dense on theory, but gives you enough to get an idea of what is going on, and then introduces you to common networking command line tools, which are an essential part of a developer's toolkit, such as:
-
-ping, netstat, curl, ifconfig, hosts (formerly nslookup), telnet, traceroute
-
-For a theoretical understanding of networks once again any university textbook will do. Popular options include:
-
-```
-Computer networking, a top-down approach by Kurose and Ross
-Computer Networks by Andrew S. Tanenbaum
-```
-
-For in depth study on networking (not essential, only if you are curious):
-
-```
-The illustrated network by Goralski
-TCP/IP illustrated, Volume 1 and Volume 2 by Fall, Stevens and Right
-TCP/IP Guide by Kozierok
-```
-
-Also a good idea to learn about internet governance:
-
-* ICANN, IANA and RIPE NCC (the latter is located in central Amsterdam)
-* IETF and RFCs (formal protocol definitions)
-
-Checkout their websites or just use wikipedia. 
+* ##Networking:
+  
+  An understanding of computer networks is also "must-have" knowledge for a software engineer, whether you are setting up a production environment, or just trying to figure out if an application is running on your own work station by testing a certain port. Try and obtain the following knowledge:
+  
+  * An understating of the TCP/IP protocol stack.
+  * Well known ports
+  * Public and private IP addresses
+  * IPv4 vs IPv6
+  * An understanding of DNS and routing
+  * An understanding of SSL/TLS, know what tunneling is and how to use ssh
+  * Certificate signing, Certification chains , CAs and PKI
+  * Http, REST
+  
+  The best practical introduction to networks that I can think of is:
+  
+  ```
+  Sams Teach yourself TCP/IP in 24 hours by Joe Casad
+  ```
+  
+  This book is not too dense on theory, but gives you enough to get an idea of what is going on, and then introduces you to common networking command line tools, which are an essential part of a developer's toolkit, such as:
+  
+  ping, netstat, curl, ifconfig, hosts (formerly nslookup), telnet, traceroute
+  
+  For a theoretical understanding of networks once again any university textbook will do. Popular options include:
+  
+  ```
+  Computer networking, a top-down approach by Kurose and Ross
+  Computer Networks by Andrew S. Tanenbaum
+  ```
+  
+  For in depth study on networking (not essential, only if you are curious):
+  
+  ```
+  The illustrated network by Goralski
+  TCP/IP illustrated, Volume 1 and Volume 2 by Fall, Stevens and Right
+  TCP/IP Guide by Kozierok
+  ```
+  
+  Also a good idea to learn about internet governance:
+  
+  * ICANN, IANA and RIPE NCC (the latter is located in central Amsterdam)
+  * IETF and RFCs (formal protocol definitions)
+  
+  Checkout their websites or just use wikipedia. 
 
 ##Data structures and algorithms:
 
