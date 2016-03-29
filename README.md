@@ -383,7 +383,7 @@ I wont recommend any concurrency books right now as this really depends on which
 
     Law of Demeter is discussed in the Pragmatic Programmer
 
-* Learn about Domain Driven Design (DDD). 
+* ##Learn about Domain Driven Design (DDD). 
   * Learn how to separate code that contains business logic from code that uses framework specific classes.
   * Understand why this makes code easier to test.
   * Keep business logic in a separate module away from persistence layers and web layers.
