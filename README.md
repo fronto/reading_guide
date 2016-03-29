@@ -221,11 +221,18 @@ Bruce Schneier is a world authority on computer and network security and written
 
 ##Understand different types of programming models:
 
+* Declarative (SQL, html)
 * Imperative (C programming)
 * Object-oriented (java, javascript)
 * Functional (Haskell)
 * Hybrid models such as object-functional (scala)
 * (python can actually be used in an imperative, objected-oriented and object-functional way)
+
+A good general book on this subject is:
+
+```
+Programming language pragmatics by Michael L. Scott
+```
 
 ##Type systems: 
 
