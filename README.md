@@ -161,19 +161,25 @@ Data structures and algorithms are ubiquitous in software engineering, even thou
 
 There are innumerable books on this subject, so I will only name a few:
 
+```
 Data structures and Algorithms in Python by Goodrich, Tamassia and Goldwasser
+```
 
 This book should be very accessible to you because the example code is in python.
 
 A book which I find is very rigorous without being overwhelming is:
 
+```
 Algorithms by Sedgewick and Wayne
+```
 
 This is the standard text book at Princeton. The exercises really force you to think. The only problem is that it takes a while to get through, so difficult to do part-time.
 
 For in depth theoretical study the bible of algorithms is:
 
+```
 Introduction to Algorithms by Corman, Leiserson, Rivest and Stein
+```
 
 It is neither practical nor easy to digest.
 
