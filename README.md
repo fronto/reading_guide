@@ -446,7 +446,11 @@ I wont recommend any concurrency books right now as this really depends on which
   * Know that loose coupling is achieved through dependency injection.
   * Know the difference between dependency injection and inversion of control. Hint: Dependency injection achieves loose coupling between classes where as inversion of control achieves loose coupling between modules. Understand that DI makes classes easier to test, especially with mocks.
 
-    Read Clean Code by Robert C. Martin
+  Read:
+
+  ```
+  Clean Code by Robert C. Martin
+  ```
 
 * ##Learn the Law of Demeter 
   * Find what "tell, don't ask" means
@@ -461,10 +465,14 @@ I wont recommend any concurrency books right now as this really depends on which
   * Keep business logic in a separate module away from persistence layers and web layers.
   * Use inversion of control and dependency injection to achieve this.
   * Realize that Domain Driven Design, Test Driven Development and Dependency Injection form the "holy trinity" of modern enterprise software development, with each one complementing the other.  
-  * Domain Driven Design by Eric Evans is the original DDD book, a bit long winded
-Implementing Domain Driven Design by Vince Vaughn -> a bit more hands on than the Evans book
-Here is a free e-book called Domain Driven Design Quickly -> shorter than the Evans book, requires infoq account:
-http://www.infoq.com/minibooks/domain-driven-design-quickly
+  ```
+  Domain Driven Design by Eric Evans is the original DDD book, a bit long winded
+  Implementing Domain Driven Design by Vince Vaughn -> a bit more hands on than Evans 
+  ```
+
+  Here is a free e-book called Domain Driven Design Quickly -> shorter than the Evans book, requires infoq account:
+  http://www.infoq.com/minibooks/domain-driven-design-quickly
+
   * It may not be necessary to read an entire book on DDD as long as you know what the following are:
     * Services
     * Repositories
@@ -481,7 +489,11 @@ http://www.infoq.com/minibooks/domain-driven-design-quickly
   * Understand release management, tagging and versioning.
   * Release early and often
 
-      Continuous Delivery by Jez Humble
+  Read:
+
+  ```
+  Continuous Delivery by Jez Humble
+  ```
 
 * ##Grasp the concept of immutable infrastracture and appreciate the impact of cloud computing
   * Microeconomics: understand the concept of economies of scale and economic specialization, and figure out why it is cheaper to deploy your software on someone else's data centre than run your own server, if you are a small company.
