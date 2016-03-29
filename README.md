@@ -412,15 +412,28 @@ I wont recommend any concurrency books right now as this really depends on which
  * In so far as web programming and relational databases are concerned, learn the "Patterns of Enterprise Application Architecture", PoEAA for short, named after the book by Fowler. Many of these patterns are also out of date now but many of them are still used, particularly the object-relational patterns. 
  * There are also the IEP (Enterprise Integration Patterns), though in practice you will hardly ever use these. Your time would be better spent learning about REST and micro-services than IEP => IEP tends to be used on monolithic systems which are being disrupted by the emergence of micro-services.
 
-   Design patterns books:
+  Design patterns books:
    
+   ```
    Head first design patterns by Freeman and Bates is very accessible
+   ```
 
-   Design Patterns: Elements of Reusable Object-oriented software by Gamma, Helm et al :this is the original design patterns book, not that readable though)
+   ```
+   Design Patterns: Elements of Reusable Object-oriented software by Gamma, Helm et al 
+   (this is the original design patterns book, not that readable though)
+   ```
 
- Patterns of Enterprise Application Architecture by Martin Fowler: although many of these patterns are out of date the patterns on object-relational mapping are invaluable
+   ```
+   Patterns of Enterprise Application Architecture by Martin Fowler
+   (although many of these patterns are out of date,
+    the patterns on object-relational mapping are invaluable)
+   ```
 
- Read Rest in Practice by Ian Robinson 
+ Read:
+
+ ```
+ Rest in Practice by Ian Robinson 
+ ```
 
  Read http://martinfowler.com/articles/microservices.html
 
