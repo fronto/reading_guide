@@ -376,7 +376,10 @@ I wont recommend any concurrency books right now as this really depends on which
 
     Read Clean Code by Robert C. Martin
 
-* Learn the Law of Demeter or "tell, don't ask". Understand why getters are evil, and why it is important to encapsulate behavior as well as state. Understand how Demeter makes code more readable and testable by chunking code more uniformly across your classes, and making behavior easier to mock in unit tests. 
+* ##Learn the Law of Demeter 
+  * Find what "tell, don't ask" means
+  * Understand why getters are evil, and why it is important to encapsulate behavior as well as state.
+  * Understand how Demeter makes code more readable and testable by chunking code more uniformly across your classes, and making behavior easier to mock in unit tests. 
 
     Law of Demeter is discussed in the Pragmatic Programmer
 
