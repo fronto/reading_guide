@@ -296,29 +296,49 @@ I wont recommend any concurrency books right now as this really depends on which
 
 #Ok enough computer science, now onto the software engineering side of things:
 
-* Try and have a main programming language and a scripting language. In your case, you main programming language can be used as a scripting language. Consider learning another language. 
+* ##Program in more than one language
+  Try and have a main programming language and a scripting language. In your case, you main programming language can be used as a scripting language.
+  Consider learning another language. 
   * Javascript would be very useful for front-end programming at work.
   * C would be very useful for understanding how computers work.
   * Go combines elements of python and C. 
   * Java is also a good one with a lot of job opportunities. 
   * Scala is in vogue at the moment but IMHO overrated. 
 
-* Get good at using the command line.
+* ##Get good at using the command line.
   * Learn to use shell utilities such as find, grep, xargs, cat, cut, sed, awk.
   * Use git from the command line. Chain shell commands together using pipes. (eg find . -type f -name *.py' | xargs grep "def" ).
   * Consider installing "bropages", which is easier to read than the man pages, and has practical examples.
+  * Learn how to write bash scripts
 
-* Learn unix/linux command line network tools such as ping, telnet, netstat, host, ifconfig, ssh, scp, curl
+* ##Learn unix/linux command line network tools such as ping, telnet, netstat, host, ifconfig, ssh, scp, curl
+  * Use ping to see if a host is available. What happens if there is firewall blocking DHCP echo requests?
+  * Use telnet to test if a process is listening on a port
+  * Inspect the TCP handshake with netstat
+  * Use host to do a DNS lookup, try a reverse DNS lookup
+  * Use ifconfig to see your ip address on ethernet and wifi
+  * Execute a command on a remote server using ssh, then login to a terminal on that server
+  * Copy a file to a server using scp, then copy it back
+  * Try doing a google search using curl
+  * Use traceroute to connect to a server on the other side of the world, and look at the network hops
 
-* Learn a command line based text editor such as vim, emacs or even sublime text. Generally the harder it is to learn the more you can do with it. Try vimtutor.
+* ##Learn a command line based text editor 
+  * Options include vim, emacs or even sublime text.
+  * Generally the harder it is to learn the more you can do with it.
+  * Try installing and using vimtutor.
 
-* Learn to use your IDE effectively. Learn the keyboard shortcuts. Intellij Idea has a plugin called KeyPromoter which prompts you with the keyboard shortcut every-time you use the mouse. I do not know if it will work with PyCharm.
+* ##Learn to use your IDE effectively. 
+  * Learn the keyboard shortcuts.
+  * Intellij Idea has a plugin called KeyPromoter which prompts you with the keyboard shortcut every-time you use the mouse. I do not know if it will work with PyCharm.
+  * Learn how to run unit tests from the IDE using keyboard shortcuts
+  * Learn how to use the debugger
+  * Use the IDE to view framework source code, while you are writing an application that is using a given framework
 
-* Master Test Driven Development.
+* ##Master Test Driven Development.
   * Know the difference between a unit test, an integration test and an automated acceptance test.
   * Know the pyramid or ice berg model => lots of fast running unit tests close to the code, compared to a few slow running end-to-end tests that test the application as a whole.
   * Get into the red-green-refactor flow.
-  * Understand how continuous integration and test-automation minimize the number of bugs in software.i
+  * Understand how continuous integration and test-automation minimize the number of bugs in software.
   * Understand that TDD is as much about design as it is about testing.
   * Testable code tends to be well designed code.
 
@@ -328,7 +348,10 @@ I wont recommend any concurrency books right now as this really depends on which
      Test Driven Development with Python by Percival (Useful to you)
      Growing object oriented software guided by tests by Freeman and Pryce (This book shows how test actually influence the design of the code, and how to write code that is highly readable and highly testable. This book is more for someone who is already used to TDD, who wants to do it better.)
 
-* Learn design patterns. Most important are the "Gang of four". Some of these patterns are now redundant, as programming languages have evolved to incorporate them into the grammar of the respective languages themselves. Hint: design patterns in current programming languages often portend changes in future programming languages. In so far as web programming and relational databases are concerned, learn the "Patterns of Enterprise Application Architecture", PoEAA for short, named after the book by Fowler. Many of these patterns are also out of date now but many of them are still used, particularly the object-relational patterns. There are also the IEP (Enterprise Integration Patterns), though in practice you will hardly ever use these. Your time would be better spent learning about REST and micro-services than IEP => IEP tends to be used on monolithic systems which are being disrupted by the emergence of micro-services.
+* ##Learn design patterns.
+ * Most important are the "Gang of four". Some of these patterns are now redundant, as programming languages have evolved to incorporate them into the grammar of the respective languages themselves. Hint: design patterns in current programming languages often portend changes in future programming languages. 
+ * In so far as web programming and relational databases are concerned, learn the "Patterns of Enterprise Application Architecture", PoEAA for short, named after the book by Fowler. Many of these patterns are also out of date now but many of them are still used, particularly the object-relational patterns. 
+ * There are also the IEP (Enterprise Integration Patterns), though in practice you will hardly ever use these. Your time would be better spent learning about REST and micro-services than IEP => IEP tends to be used on monolithic systems which are being disrupted by the emergence of micro-services.
 
    Design patterns books:
    
@@ -344,7 +367,12 @@ I wont recommend any concurrency books right now as this really depends on which
 
  
 
-* Learn the dependency injection principle. Know the difference between tight coupling and loose coupling. Know why loose coupling is preferable. Know that loose coupling is achieved through dependency injection. Know the difference between dependency injection and inversion of control. Hint: Dependency injection achieves loose coupling between classes where as inversion of control achieves loose coupling between modules. Understand that DI makes classes easier to test, especially with mocks.
+* ##Learn the dependency injection principle.
+  * Find out what it means to "seperate construction from use" 
+  * Know the difference between tight coupling and loose coupling.
+  * Know why loose coupling is preferable.
+  * Know that loose coupling is achieved through dependency injection.
+  * Know the difference between dependency injection and inversion of control. Hint: Dependency injection achieves loose coupling between classes where as inversion of control achieves loose coupling between modules. Understand that DI makes classes easier to test, especially with mocks.
 
     Read Clean Code by Robert C. Martin
 
