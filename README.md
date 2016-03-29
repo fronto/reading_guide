@@ -110,7 +110,9 @@ An understanding of computer networks is also "must-have" knowledge for a softwa
 
 The best practical introduction to networks that I can think of is:
 
+```
 Sams Teach yourself TCP/IP in 24 hours by Joe Casad
+```
 
 This book is not too dense on theory, but gives you enough to get an idea of what is going on, and then introduces you to common networking command line tools, which are an essential part of a developer's toolkit, such as:
 
@@ -118,19 +120,23 @@ ping, netstat, curl, ifconfig, hosts (formerly nslookup), telnet, traceroute
 
 For a theoretical understanding of networks once again any university textbook will do. Popular options include:
 
+```
 Computer networking, a top-down approach by Kurose and Ross
 Computer Networks by Andrew S. Tanenbaum
+```
 
 For in depth study on networking (not essential, only if you are curious):
 
+```
 The illustrated network by Goralski
 TCP/IP illustrated, Volume 1 and Volume 2 by Fall, Stevens and Right
 TCP/IP Guide by Kozierok
+```
 
 Also a good idea to learn about internet governance:
 
-ICANN, IANA and RIPE NCC (the latter is located in central Amsterdam)
-IETF and RFCs (formal protocol definitions)
+* ICANN, IANA and RIPE NCC (the latter is located in central Amsterdam)
+* IETF and RFCs (formal protocol definitions)
 
 Checkout their websites or just use wikipedia. 
 
