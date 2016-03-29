@@ -395,11 +395,17 @@ I wont recommend any concurrency books right now as this really depends on which
   * Understand that TDD is as much about design as it is about testing.
   * Testable code tends to be well designed code.
 
-    TDD books:
+  TDD books:
     
-     Test Driven Development by Kent Beck (Introduction, a bit out of date)
-     Test Driven Development with Python by Percival (Useful to you)
-     Growing object oriented software guided by tests by Freeman and Pryce (This book shows how test actually influence the design of the code, and how to write code that is highly readable and highly testable. This book is more for someone who is already used to TDD, who wants to do it better.)
+  ```   
+  Test Driven Development by Kent Beck (Introduction, a bit out of date)
+  Test Driven Development with Python by Percival (Useful to you)
+  Growing object oriented software guided by tests by Freeman and Pryce 
+  (This book shows how test actually influence the design of the code,
+   and how to write code that is highly readable and highly testable. 
+   This book is more for someone who is already used to TDD,
+   who wants to do it better.)
+  ```   
 
 * ##Learn design patterns.
  * Most important are the "Gang of four". Some of these patterns are now redundant, as programming languages have evolved to incorporate them into the grammar of the respective languages themselves. Hint: design patterns in current programming languages often portend changes in future programming languages. 
