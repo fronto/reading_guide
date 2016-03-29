@@ -140,48 +140,48 @@ Having some foundational knowledge in computer science can help you be a better 
   
   Checkout their websites or just use wikipedia. 
 
-##Data structures and algorithms:
-
-Data structures and algorithms is one of those foundational subjects that you find everywhere. Main subject areas include:
-
-* Basics of lists, queues, stacks, graphs and trees
-* Basics of hashes and hash tables
-* Basics of searching and sorting
-
-Real world examples of their use:
-
-* Network routing: uses shortest path graph algorithms
-* Calling functions in a running program: uses stacks
-* Storing data of indefinite size: uses linked lists
-* File system on your Mac: uses trees, both in the path names and inodes.
-* Listing names alphabetically: uses sorting algorithms
-* Using git bisect to pinpoint a bug in your code: binary search
-
-Data structures and algorithms are ubiquitous in software engineering, even though one is often unaware of their presence as they will be hidden inside an api or library that you are using. That said I think learning this subject is well worth the investment.
-
-There are innumerable books on this subject, so I will only name a few:
-
-```
-Data structures and Algorithms in Python by Goodrich, Tamassia and Goldwasser
-```
-
-This book should be very accessible to you because the example code is in python.
-
-A book which I find is very rigorous without being overwhelming is:
-
-```
-Algorithms by Sedgewick and Wayne
-```
-
-This is the standard text book at Princeton. The exercises really force you to think. The only problem is that it takes a while to get through, so difficult to do part-time.
-
-For in depth theoretical study the bible of algorithms is:
-
-```
-Introduction to Algorithms by Corman, Leiserson, Rivest and Stein
-```
-
-It is neither practical nor easy to digest.
+* ##Data structures and algorithms:
+  
+  Data structures and algorithms is one of those foundational subjects that you find everywhere. Main subject areas include:
+  
+  * Basics of lists, queues, stacks, graphs and trees
+  * Basics of hashes and hash tables
+  * Basics of searching and sorting
+  
+  Real world examples of their use:
+  
+  * Network routing: uses shortest path graph algorithms
+  * Calling functions in a running program: uses stacks
+  * Storing data of indefinite size: uses linked lists
+  * File system on your Mac: uses trees, both in the path names and inodes.
+  * Listing names alphabetically: uses sorting algorithms
+  * Using git bisect to pinpoint a bug in your code: binary search
+  
+  Data structures and algorithms are ubiquitous in software engineering, even though one is often unaware of their presence as they will be hidden inside an api or library that you are using. That said I think learning this subject is well worth the investment.
+  
+  There are innumerable books on this subject, so I will only name a few:
+  
+  ```
+  Data structures and Algorithms in Python by Goodrich, Tamassia and Goldwasser
+  ```
+  
+  This book should be very accessible to you because the example code is in python.
+  
+  A book which I find is very rigorous without being overwhelming is:
+  
+  ```
+  Algorithms by Sedgewick and Wayne
+  ```
+  
+  This is the standard text book at Princeton. The exercises really force you to think. The only problem is that it takes a while to get through, so difficult to do part-time.
+  
+  For in depth theoretical study the bible of algorithms is:
+  
+  ```
+  Introduction to Algorithms by Corman, Leiserson, Rivest and Stein
+  ```
+  
+  It is neither practical nor easy to digest.
 
 ##Encryption:
 
