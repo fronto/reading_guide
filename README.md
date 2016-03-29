@@ -319,13 +319,17 @@ Strive to obtain a high level, abstract understanding of what these things are:
 
 To learn C programming:
 
+```
 Sams Teach your C in one hour a day, by Jones, Aitken and Miller
 The C Programming Language by Kerrighan and Ritchie (Also known as "K&R")
 Understanding and using C pointers by Richard Reece
+```
 
 To learn about computer systems:
 
+```
 Computer Systems: a Programmers perspective by Bryant and O'Halleron
+```
 
 I cannot understate how useful the Bryant and O'Halleron book is for a complete understanding of how a computer works and how programs are compiled and run. Some of the older editions of this book are available for free online
 
